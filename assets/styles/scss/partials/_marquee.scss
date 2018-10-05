@@ -1,0 +1,25 @@
+.marquee-content {
+  position: relative;
+  margin-top: 5rem;
+  z-index: 2;
+
+  h1 {
+    color: $white;
+    font-weight: 300;
+    line-height: 4rem;
+    font-size: 4rem;
+  }
+  
+  p {
+    color: $white;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+  }
+  
+  button {
+    background-color: map-get($pink, alt);
+    color: $white;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+}

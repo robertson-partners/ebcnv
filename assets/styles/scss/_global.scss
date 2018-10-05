@@ -414,6 +414,10 @@ FOOTER STYLES
 .footer {
 	clear: both;
 	margin-top: 1em;
+	
+	.copyright {
+    color: $dark-gray;	
+	}
 }
 	
 /*********************

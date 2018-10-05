@@ -64,5 +64,11 @@ CSS file.
 @include foundation-visibility-classes;
 @include foundation-float-classes;
 
+// FONTS!
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+
 // Import your custom styles
 @import "global";
+
+@import "partials/nav";
+@import "partials/marquee";

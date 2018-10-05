@@ -27,6 +27,7 @@ const SOURCE = {
 		FOUNDATION + '/dist/js/plugins/foundation.util.*.js',
 
 		// Pick the components you need in your project
+		/*
 		FOUNDATION + '/dist/js/plugins/foundation.abide.js',
 		FOUNDATION + '/dist/js/plugins/foundation.accordion.js',
 		FOUNDATION + '/dist/js/plugins/foundation.accordionMenu.js',
@@ -48,8 +49,9 @@ const SOURCE = {
 		FOUNDATION + '/dist/js/plugins/foundation.tabs.js',
 		FOUNDATION + '/dist/js/plugins/foundation.toggler.js',
 		FOUNDATION + '/dist/js/plugins/foundation.tooltip.js',
+		*/
 
-		// Place custom JS here, files will be concantonated, minified if ran with --production
+		// Place custom JS here, files will be concatenated, minified if ran with --production
 		'assets/scripts/js/**/*.js',
     ],
 

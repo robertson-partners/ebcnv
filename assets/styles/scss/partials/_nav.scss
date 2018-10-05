@@ -1,0 +1,55 @@
+header {
+  height: 700px;
+  position: relative;
+  background-color: #000;
+  
+  .marquee {
+    background-image: url('../images/sunrise_nicu.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 1;
+  }
+  /** OVERRIDE **/
+  .grid-container {
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    
+    .cell {
+      
+      &.nav {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 40px;
+      }
+    }
+  }
+  
+  .ebc_logo {
+    width: 100%;
+    background-color: map-get($pink, alt);
+    height: 140px;
+    background-image: url('../images/ebc_logo.png');
+    background-position-y: center;
+    background-position-x: 65%;
+    background-repeat: no-repeat;
+    background-size: 118px;
+  }
+  
+  .mainnav {
+    margin: 0;
+    
+    li {
+      color: $white;
+      list-style-type: none;
+      display: inline-block;
+      font-size: 1.2rem;
+      margin-left: 2.5rem;
+    }
+  }
+}
