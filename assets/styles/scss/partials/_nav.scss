@@ -32,7 +32,7 @@ header {
   
   .ebc_logo {
     width: 100%;
-    background-color: map-get($pink, alt);
+    background-color: map-get($pink, primary);
     height: 140px;
     background-image: url('../images/ebc_logo.png');
     background-position-y: center;
