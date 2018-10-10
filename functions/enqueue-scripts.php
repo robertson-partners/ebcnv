@@ -1,4 +1,6 @@
 <?php
+$version = '1.0A';  
+  
 function site_scripts() {
   global $wp_styles; // Call global $wp_styles variable to add conditional wrapper around ie stylesheet the WordPress way
         
@@ -12,5 +14,13 @@ function site_scripts() {
     if ( is_singular() AND comments_open() AND (get_option('thread_comments') == 1)) {
       wp_enqueue_script( 'comment-reply' );
     }
+    
+    /** CUSTOM STYLES AND JAVASCRIPTS **\
+    |===================================|
+    \** ============================= **/
+    
+    // Hamburger Menu Icon
+    wp_enqueue_style('hamburgers-css', get_template_directory_uri() . '/assets/styles/hamburgers.min.css', array(), $version, 'screen');
+    
 }
 add_action('wp_enqueue_scripts', 'site_scripts', 999);

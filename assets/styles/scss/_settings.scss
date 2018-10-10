@@ -78,18 +78,19 @@ $foundation-palette: (
   alert: #cc4b37,
 );
 
-$light-gray: #e6e6e6;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
+$vlight-gray: #F2F2F2;
+$light-gray: #D4D3D3;
+$medium-gray: #878788;
+$dark-gray: #4A4A4A;
+$black: #151515;
+$white: #fff;
 
 $pink: (
   primary: #eb008b,
-  alt: #774a6a,
+  alt: #774a6a
 );
-  
 $blue: #00AEEF;
+$green: #7FB941;
 
 $body-background: $white;
 $body-font-color: $black;

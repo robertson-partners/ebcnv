@@ -16,4 +16,15 @@ jQuery(document).ready(function() {
 		  jQuery(this).wrap("<div class='responsive-embed'/>");
 		}
 	});
+	
+	console.log('Script file ready.');
+	
+	jQuery('#hamburger').on('click', function(){
+  	jQuery(this).toggleClass('is-active');
+  	jQuery('#mainnav').toggle(200);
+	});
+	
+	jQuery(document).on('click', function(){
+  	console.log(jQuery(this).attr('id'));
+	})
 }); 
