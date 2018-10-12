@@ -26,7 +26,7 @@ header {
       }
       @include breakpoint(small down){
         padding: 0;
-        background-color: map-get($pink, primary);
+        background-color: map-get($pink, alt);
         z-index: 999;
       }
       
@@ -47,7 +47,7 @@ header {
   
   .ebc_logo {
     width: 100%;
-    background-color: map-get($pink, primary);
+    background-color: map-get($pink, alt);
     height: 140px;
     background-image: url('../images/ebc_logo.png');
     background-position-y: center;

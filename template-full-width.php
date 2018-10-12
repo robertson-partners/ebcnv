@@ -58,6 +58,66 @@ get_header(); ?>
     </div>
     <!-- Action Blocks -->
     
+    <!-- Petition Block -->
+    <div class="petition-block">
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="medium-7 large-7 cell formblock">
+            <h2><b>sign</b> the petition</h2>
+            <p>by signing this petition you are stating that you want funding to flow directly to the babies that need care.</p>
+            <?php echo do_shortcode("[caldera_form id='CF5bb525f2c8f98']"); ?>
+          </div>
+          <div class="medium-5 large-5 cell signatureblock">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Petition Block -->
+
+    <!-- Letter Block -->
+    <div class="letter-block">
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="medium-12 large-12 cell">
+            <h2>send a <b>letter</b></h2>
+            <p>we've put together a letter. follow the steps below to send one to your representative.</p>
+            <div class="letterbox">
+              <div class="letterreset" id="letterreset"><i class="fal fa-redo"></i> start over</div>
+              <div class="editabletxt" id="letterbox" contenteditable="true">
+                <p><b>To whom it may concern,</b></p>
+                <p>The critical, life-saving and advanced care many of Nevada's smallest and sickest citizens receive at Sunrise Hospital's Neonatal Intensive Care Unit and other pediatric departments is important to our community. As the only hospital in Southern Nevada fully equipped to treat our state's sickest and smallest babies, and the largest provider of Medicaid services in our state, Sunrise Hospital plays an important roles in the health of Nevada families.</p>
+                <p>To ensure these critical services can continue to be provided to families, children and babies in Southern Nevada, I ask for your support as the hospital seeks a fair and equitable distribution of Medicaid reimbursements commensurate with the services it provides. It matters to me that our community's sickest babies and children continue to receive the critical, life-saving care they need to survive and thrive.</p>
+                <p>(Write your own words here, or anywhere throughout this letter.)</p>
+                <p>Signed,</p>
+                <p>(Your name here)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Letter Block -->
+
+    <!-- Share Block -->
+    <div class="share-block">
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="medium-12 large-12 cell">
+            <h2><b>share</b> for a solution</h2>
+            <p>Share this campaign with your friends and family</p>
+            <ul class="shareoptions">
+              <li><i class="fab fa-facebook-f"></i></li>
+              <li><i class="fab fa-twitter"></i></li>
+              <li><i class="fab fa-linkedin-in"></i></li>
+              <li><i class="fal fa-envelope"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Share Block -->
+
+
     <!--
     <div class="alt-block">
       <div class="grid-container">

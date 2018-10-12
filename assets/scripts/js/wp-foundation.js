@@ -3,7 +3,7 @@ These functions make sure WordPress
 and Foundation play nice together.
 */
 
-jQuery(document).ready(function() {
+(function($) {
 	
     // Remove empty P tags created by WP inside of Accordion and Orbit
     jQuery('.accordion p:empty, .orbit p:empty').remove();
@@ -17,14 +17,19 @@ jQuery(document).ready(function() {
 		}
 	});
 	
-	console.log('Script file ready.');
 	
+	/*
+   * Hamburger Menus for mobile (https://jonsuh.com/hamburgers/)
+   */
 	jQuery('#hamburger').on('click', function(){
   	jQuery(this).toggleClass('is-active');
   	jQuery('#mainnav').toggle(200);
 	});
-	
-	jQuery(document).on('click', function(){
-  	console.log(jQuery(this).attr('id'));
-	})
-}); 
+   
+  var $lettercontent = $('#letterbox').html();
+  console.log($lettercontent);
+  $('#letterreset').on('click', function(){
+    $('#letterbox').html($lettercontent);
+  });
+
+})(jQuery);

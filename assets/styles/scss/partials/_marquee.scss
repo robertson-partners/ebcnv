@@ -17,7 +17,7 @@
   }
   
   button {
-    background-color: $blue;  
+    background-color: map-get($pink , alt);
     color: $white;
     padding: 1rem;
     font-size: 1.2rem;

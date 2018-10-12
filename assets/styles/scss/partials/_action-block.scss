@@ -1,19 +1,22 @@
 .action-block1 {
-  padding: 3rem 0;
+  padding: 4rem 0;
   
   .tier1 {
     
     h2 {
-      color: map-get($pink, primary);
+      color: map-get($pink, alt);
       font-weight: 300;
       letter-spacing: -0.5px;
       font-size: 3rem;
       line-height: 3rem;
       margin-bottom: 1.2rem;
     }
+    p {
+      color: $medium-gray;
+    }
     
     button {
-      background-color: map-get($pink, primary);
+      background-color: map-get($pink, alt);
       color: #fff;
       padding: 1rem;
       font-size: 1.2rem;
@@ -23,24 +26,39 @@
 
 .action-block2 {
   background-color: $vlight-gray;
-  padding: 3rem 0;
+  padding: 3rem 0 4rem;
   
   .tier2 {
     h2 {
-      
+      color: $green;
+      font-size: 4rem;
+      margin-bottom: 2rem;
+      font-weight: 300;
     }
     
     h3 {
-      color: $blue;
+      color: $green;
       font-weight: 300;
       letter-spacing: -0.5px;
-      font-size: 2.5rem;
-      line-height: 2.5rem;
+      font-size: 2rem;
+      line-height: 2rem;
       margin-bottom: 1.2rem;
+      position: relative;
+
+      &::after {
+        font-family: "Font Awesome 5 Pro";
+        content: "\f061";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 1rem;
+      }
     }
     p {
       color: $medium-gray;
-      font-size: 1.2rem;
+      font-size: 1rem;
+      line-height: 1.2rem;
+      padding-right: 1rem;
     }
   }
 }

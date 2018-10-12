@@ -1,0 +1,47 @@
+.letter-block {
+  padding: 4rem 0;
+
+  h2 {
+    color: $orange;
+    font-size: 4rem;
+    font-weight: 300;
+  }
+  p {
+    color: $medium-gray;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+  }
+
+  .letterbox {
+    position: relative;
+    background: $vlight-gray;
+    color: $medium-gray;
+    padding: 1rem;
+    font-size: 1.4rem;
+
+    .letterreset {
+      position: absolute;
+      font-size: 1rem;
+      background-color: $orange;
+      padding: 0.5rem;
+      top: 0;
+      right: 0;
+      color: $white;
+    }
+    
+    .editabletxt {
+      padding: 1rem;
+
+      &:focus {
+        border: none;
+        outline: none;
+        background-color: rgba(255,255,255,0.35);
+      }
+
+      p {
+        line-height: 2.4rem;
+        margin: 0;
+      }
+    }
+  }
+}
