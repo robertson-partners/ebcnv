@@ -97,7 +97,7 @@ get_header(); ?>
             <p>we've put together a letter. follow the steps below to send one to your representative.</p>
             <div class="letterbox">
               <div class="letterreset" id="letterreset"><i class="fal fa-redo"></i> start over</div>
-              <div><i class="fal fa-pencil"></i> Edit the letter by clicking/tapping below</div>
+              <div class="instructions"><i class="fal fa-pencil"></i> Edit the letter by clicking/tapping below</div>
               <hr>
               <div class="editabletxt" id="letterbox" contenteditable="true">
                 <p><b><span>To whom it may concern,</span></b></p>
