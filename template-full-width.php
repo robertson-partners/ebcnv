@@ -97,6 +97,8 @@ get_header(); ?>
             <p>we've put together a letter. follow the steps below to send one to your representative.</p>
             <div class="letterbox">
               <div class="letterreset" id="letterreset"><i class="fal fa-redo"></i> start over</div>
+              <div><i class="fal fa-pencil"></i> Edit the letter by clicking/tapping below</div>
+              <hr>
               <div class="editabletxt" id="letterbox" contenteditable="true">
                 <p><b><span>To whom it may concern,</span></b></p>
                 <p><span>The critical, life-saving and advanced care many of Nevada's smallest and sickest citizens receive at Sunrise Hospital's Neonatal Intensive Care Unit and other pediatric departments is important to our community. As the only hospital in Southern Nevada fully equipped to treat our state's sickest and smallest babies, and the largest provider of Medicaid services in our state, Sunrise Hospital plays an important roles in the health of Nevada families.</span></p>
