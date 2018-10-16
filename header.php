@@ -46,11 +46,17 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8W5CQV"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    
+
 		<div class="off-canvas-wrapper">			
 			<div class="off-canvas-content" data-off-canvas-content>
 				
-				<header class="header" role="banner">
+				<header class="header <?php echo (is_page_template('template-full-width.php')) ? 'home' : 'other'; ?>" role="banner">
           <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
-          <?php get_template_part( 'parts/content', 'marquee'); ?>
+          <?php 
+            if(is_page_template('template-full-width.php')){
+              get_template_part( 'parts/content', 'marquee');
+            } else {
+              get_template_part( 'parts/content', 'marquee_other');
+            }
+          ?>
 				</header>

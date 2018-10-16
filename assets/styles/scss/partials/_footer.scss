@@ -1,0 +1,41 @@
+footer {
+  
+  .inner-footer {
+
+    p, li {
+      font-size: 0.875rem;
+      
+      @include breakpoint(small down){
+        font-size: 0.875rem;
+      }
+    }
+
+    .menu {
+
+      li {
+
+        @include breakpoint(small down){
+          width: 100%;
+          text-align: right;
+        }
+      }
+
+      a {
+        padding: 0;
+        line-height: 1.6;
+        color: $dark-gray;
+        text-decoration: underline;
+
+        @include breakpoint(small down){
+          padding: 0;
+          line-height: 1.6;
+        }
+      }
+      .active {
+        a {
+          background: none;
+        }
+      }
+    }
+  }
+}

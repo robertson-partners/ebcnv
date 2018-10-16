@@ -4,6 +4,8 @@
  *
  * For more info: http://jointswp.com/docs/off-canvas-menu/
  */
+
+$nav = (is_page_template('template-full-width.php')) ? '' : '/'; 
 ?>
 
 <div class="marquee-image"></div>
@@ -22,10 +24,10 @@
       </div>
       
       <ul id="mainnav" class="mainnav">
-        <li><a href="#action-block1">about</a></li>
-        <li><a href="#petition-block">sign the petition</a></li>
-        <li><a href="#letter-block">send a letter</a></li>
-        <li><a href="#share-block">share the cause</a></li>
+        <li><a href="<?php echo $nav; ?>#action-block1">about</a></li>
+        <li><a href="<?php echo $nav; ?>#petition-block">sign the petition</a></li>
+        <li><a href="<?php echo $nav; ?>#letter-block">send a letter</a></li>
+        <li><a href="<?php echo $nav; ?>#share-block">share the cause</a></li>
       </ul>
     </div>
   </div>
