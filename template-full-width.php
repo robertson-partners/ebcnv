@@ -62,7 +62,7 @@ get_header(); ?>
     <div class="petition-block" id="petition-block">
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
-          <div class="medium-7 large-7 cell formblock">
+          <div class="medium-12 large-12 cell formblock">
             <h2><b>sign</b> the petition</h2>
             <p>by signing this petition you are stating that you want funding to flow directly to the babies that need care.</p>
             <?php echo do_shortcode("[caldera_form id='CF5bb525f2c8f98']"); ?>

@@ -41,6 +41,7 @@
   .signatureblock {
     background: map-get($pink, alt);
     padding: 2rem;
+    display: none;
 
     h2 {
       font-weight: 300;
