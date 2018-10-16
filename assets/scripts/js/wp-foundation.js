@@ -16,20 +16,5 @@ and Foundation play nice together.
 		  jQuery(this).wrap("<div class='responsive-embed'/>");
 		}
 	});
-	
-	
-	/*
-   * Hamburger Menus for mobile (https://jonsuh.com/hamburgers/)
-   */
-	jQuery('#hamburger').on('click', function(){
-  	jQuery(this).toggleClass('is-active');
-  	jQuery('#mainnav').toggle(200);
-	});
-   
-  var $lettercontent = $('#letterbox').html();
-  console.log($lettercontent);
-  $('#letterreset').on('click', function(){
-    $('#letterbox').html($lettercontent);
-  });
 
 })(jQuery);

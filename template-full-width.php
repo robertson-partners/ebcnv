@@ -41,8 +41,8 @@ get_header(); ?>
             <p>please sign your name to this cause. every signature counts.</p>
           </div>
           <div class="medium-3 large-3 cell">
-            <h3>opt-in for<br><b>updates</b></h3>
-            <p>opt-in for email and we'll send you updates on our progress.</p>
+            <h3>opt in for<br><b>updates</b></h3>
+            <p>opt in for email and we'll send you updates on our progress.</p>
           </div>
           <div class="medium-3 large-3 cell">
             <h3>send a<br><b>letter</b></h3>
@@ -107,6 +107,21 @@ get_header(); ?>
                 <p><span>Signed,</span></p>
                 <p><b><span>(Your name here)</span></b></p>
               </div>
+              <hr>
+              <div class="copytxt" id="copytxt" data-clipboard-target="#letterbox">
+                <i class="fal fa-copy"></i> Click here to Copy<br> the text of your letter
+              </div>
+              <div class="printtxt" id="printtxt">
+                <i class="fal fa-print"></i> Click here to<br>print your letter
+              </div>
+              <div class="govlookup" id="govlookup">
+                <i class="fal fa-landmark"></i> Click here to look up<br>your government officials
+              </div>
+              <div class="lookupform" id="lookupform">
+                <hr>
+                <?php echo do_shortcode( "[CongressLookup]" ); ?>
+              </div>
+              <div class="copyfunc" id="copyfunc"></div>
             </div>
           </div>
         </div>
@@ -125,30 +140,13 @@ get_header(); ?>
               <li><i class="fab fa-facebook-f"></i></li>
               <li><i class="fab fa-twitter"></i></li>
               <li><i class="fab fa-linkedin-in"></i></li>
-              <li><i class="fal fa-envelope"></i></li>
+              <li><a href="mailto:"><i class="fal fa-envelope"></i></a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
     <!-- Share Block -->
-
-
-    <!--
-    <div class="alt-block">
-      <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-          <main class="main small-12 medium-12 large-12 cell" role="main">
-				
-            <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-              <?php //get_template_part( 'parts/loop', 'page' ); ?>
-            <?php endwhile; endif; ?>							
-
-          </main>
-        </div>
-      </div>
-    </div>
-    -->
     
   </div>
 

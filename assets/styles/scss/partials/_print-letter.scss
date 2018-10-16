@@ -1,0 +1,50 @@
+body {
+  @media print {
+    header, .action-block1, .action-block2, .petition-block, .share-block, footer {
+      display: none;
+    }
+    .letter-block {
+      h2, hr {
+        display: none;
+      }
+      p {
+        display: none;
+      }
+      .letterreset, .instructions {
+        display: none;
+      }
+      .letterbox {
+        display: block;
+
+        .editabletxt {
+          p {
+            display: block;
+            font-size: 1rem;
+            line-height: 2rem;
+
+            span {
+              border: none;
+            }
+          }
+        }
+      }
+      .copytxt, .printtxt, .copyfunc {
+        display: none;
+      }
+    }
+  }
+}
+
+.letter-block {
+  @media print {
+    display: block;
+  }
+}
+#letterbox {
+  @media print {
+    display: block;
+    background: #fff;
+    height: 100%;
+    width: 100%;
+  }
+}

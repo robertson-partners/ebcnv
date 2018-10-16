@@ -70,6 +70,8 @@ CSS file.
 // Import your custom styles
 @import "global";
 
+@import "partials/print-letter";
+
 @import "partials/nav";
 @import "partials/marquee";
 @import "partials/action-block";

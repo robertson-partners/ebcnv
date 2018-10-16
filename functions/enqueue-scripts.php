@@ -15,12 +15,15 @@ function site_scripts() {
       wp_enqueue_script( 'comment-reply' );
     }
     
-    /** CUSTOM STYLES AND JAVASCRIPTS **\
-    |===================================|
-    \** ============================= **/
+    /** CUSTOM STYLES AND JAVASCRIPTS **/
+
+    $themedir = get_template_directory_uri();
     
     // Hamburger Menu Icon
-    wp_enqueue_style('hamburgers-css', get_template_directory_uri() . '/assets/styles/hamburgers.min.css', array(), $version, 'screen');
-    
+    wp_enqueue_style('hamburgers-css', $themedir . '/assets/styles/hamburgers.min.css', array(), $version, 'screen');   
+
+    wp_enqueue_script( 'clipboardjs', $themedir . '/assets/scripts/clipboard.min.js', array(), $version, true );
+
+    wp_enqueue_script( 'custom-js', $themedir . '/assets/scripts/custom.js', array('clipboardjs'), $version, true );
 }
 add_action('wp_enqueue_scripts', 'site_scripts', 999);

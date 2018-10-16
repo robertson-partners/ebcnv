@@ -53,4 +53,112 @@
       }
     }
   }
+
+  .copytxt, .printtxt, .govlookup {
+    background: $orange;
+    color: $white;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    display: inline-block;
+    padding: 4px 8px;
+    margin-right: 1rem;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba(240,93,37,0.85);
+    }
+    &:active {
+      background: #c14c20;
+    }
+  }
+  .govlookup {
+    background: $green;
+    margin: 0;
+    float: right;
+
+    &:hover {
+      background: rgba(129,164,37,0.85);
+    }
+    &:active {
+      background: #69861f;
+    }
+  }
+  .lookupform {
+    display: none;
+  }
+
+  .copyfunc {
+    display: none;
+    position: absolute;
+    background: $green;
+    color: white;
+    padding: 2rem 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  }
+
+  form.legislators {
+    .le_head {
+      padding: 0;
+      font-size: 1.2rem;
+      font-weight: 300;
+      margin: 0;
+      color: #000;
+    }
+    input {
+      display: inline-block;
+      margin: 0;
+
+      &.submit {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        background: $orange;
+        border: none;
+        color: #fff;
+        border-radius: 10px;
+        line-height: 0;
+        height: 2.4375rem;
+        vertical-align: top;
+      }
+    }
+    fieldset {
+      margin-bottom: 1rem;
+    }
+    .congress_example {
+      display: none;
+    }
+    .legislators_list {
+      padding-top: 1rem;
+      border: none;
+
+      .legislator_block {
+        width: 50%;
+        float: left;
+        padding: 1rem;
+        min-height: 325px;
+
+        h3 {
+          font-size: 1.2rem;
+          margin: 0;
+        }
+        .legislator-pic {
+          float: none;
+        }
+
+        .legislator-contact {
+          list-style-position: inside;
+          margin: 0 0 2rem;
+          
+          li {
+            list-style-type: square;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
 }
