@@ -3,6 +3,10 @@
   margin-top: 5rem;
   z-index: 2;
 
+  @include breakpoint(small down){
+    margin-top: 4rem;
+  }
+
   h1 {
     color: $white;
     font-weight: 300;

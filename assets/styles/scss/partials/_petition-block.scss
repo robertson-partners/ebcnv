@@ -15,6 +15,10 @@
       color: map-get($pink, alt);
       font-size: 4rem;
       font-weight: 300;
+
+      @include breakpoint(small down){
+        line-height: 4rem;
+      }
     }
     label {
       color: $medium-gray;

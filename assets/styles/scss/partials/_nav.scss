@@ -2,6 +2,10 @@ header {
   height: 700px;
   position: relative;
   background-color: #000;
+
+  @include breakpoint(small down){
+    margin-top: 90px;
+  }
   
   .marquee-image {
     background-image: url('../images/mom-baby.jpg');
@@ -28,6 +32,9 @@ header {
         padding: 0;
         background-color: map-get($pink, alt);
         z-index: 999;
+        position: fixed;
+        width: 100%;
+        top: 0;
       }
       
       .cell {

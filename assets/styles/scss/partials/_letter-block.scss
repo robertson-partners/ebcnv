@@ -21,6 +21,11 @@
 
     .instructions {
       color: $orange;
+
+      @include breakpoint(small down){
+        font-size: 1.2rem;
+        width: 60%;
+      }
     }
 
     .letterreset {
@@ -75,6 +80,11 @@
     background: $green;
     margin: 0;
     float: right;
+
+    @include breakpoint(small down){
+      float: none;
+      margin-top: 1rem;
+    }
 
     &:hover {
       background: rgba(129,164,37,0.85);
@@ -141,6 +151,12 @@
         padding: 1rem;
         min-height: 325px;
 
+        @include breakpoint(small down){
+          width: 100%;
+          min-height: 300px;
+          padding: 0;
+        }
+
         h3 {
           font-size: 1.2rem;
           margin: 0;
@@ -156,6 +172,11 @@
           li {
             list-style-type: square;
             font-size: 1rem;
+
+            @include breakpoint(small down){
+              list-style-type: none;
+              font-size: 0.875rem;
+            }
           }
         }
       }

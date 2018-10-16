@@ -10,9 +10,21 @@
       font-size: 3rem;
       line-height: 3rem;
       margin-bottom: 1.2rem;
+
+      @include breakpoint(small down){
+        br {
+          display: none;
+        }
+      }
     }
     p {
       color: $medium-gray;
+    }
+
+    @include breakpoint(small down){
+      img {
+        margin-top: 1rem;
+      }
     }
     
     button {
@@ -58,6 +70,12 @@
         top: 50%;
         transform: translateY(-50%);
         right: 1rem;
+      }
+
+      @include breakpoint(small down){
+        br {
+          display: none;
+        }
       }
     }
     p {
