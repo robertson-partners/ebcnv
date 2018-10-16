@@ -18,7 +18,7 @@ get_header(); ?>
             <button class="pinkBtn">Sign the petition</button>
           </div>
           <div class="medium-6 large-6 cell">
-            <img src="<?php echo get_template_directory_uri() . '/assets/images/temp/best-treats-for-kittens.jpg'; ?>">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/nicu.jpg'; ?>">
           </div>
         </div>
       </div>
@@ -137,10 +137,18 @@ get_header(); ?>
             <h2><b>share</b> for a solution</h2>
             <p>Share this campaign with your friends and family</p>
             <ul class="shareoptions">
-              <li><i class="fab fa-facebook-f"></i></li>
-              <li><i class="fab fa-twitter"></i></li>
-              <li><i class="fab fa-linkedin-in"></i></li>
-              <li><a href="mailto:"><i class="fal fa-envelope"></i></a></li>
+              <li>
+                <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="mailto:" target="_blank"><i class="fal fa-envelope"></i></a>
+              </li>
             </ul>
           </div>
         </div>
