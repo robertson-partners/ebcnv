@@ -83,6 +83,14 @@ header {
       @include breakpoint(small down){
         display: block;
       }
+
+      a {
+        color: $white;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
     
     @include breakpoint(small down){

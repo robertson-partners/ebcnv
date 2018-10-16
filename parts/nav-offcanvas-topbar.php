@@ -22,10 +22,10 @@
       </div>
       
       <ul id="mainnav" class="mainnav">
-        <li>about</li>
-        <li>sign the petition</li>
-        <li>send a letter</li>
-        <li>share the cause</li>
+        <li><a href="#action-block">about</a></li>
+        <li><a href="#petition-block">sign the petition</a></li>
+        <li><a href="#letter-block">send a letter</a></li>
+        <li><a href="#share-block">share the cause</a></li>
       </ul>
     </div>
   </div>

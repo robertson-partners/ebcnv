@@ -7,7 +7,7 @@ get_header(); ?>
   
   <div class="main-container">
     <!-- Action Block 1 -->
-    <div class="action-block1">
+    <div class="action-block1" id="action-block1">
       
       <!-- Tier 1: Sign Petition CTA -->
       <div class="grid-container tier1">
@@ -59,7 +59,7 @@ get_header(); ?>
     <!-- Action Blocks -->
     
     <!-- Petition Block -->
-    <div class="petition-block">
+    <div class="petition-block" id="petition-block">
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
           <div class="medium-7 large-7 cell formblock">
@@ -89,7 +89,7 @@ get_header(); ?>
     <!-- Petition Block -->
 
     <!-- Letter Block -->
-    <div class="letter-block">
+    <div class="letter-block" id="letter-block">
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
           <div class="medium-12 large-12 cell">
@@ -130,7 +130,7 @@ get_header(); ?>
     <!-- Letter Block -->
 
     <!-- Share Block -->
-    <div class="share-block">
+    <div class="share-block" id="share-block">
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
           <div class="medium-12 large-12 cell">
@@ -138,16 +138,16 @@ get_header(); ?>
             <p>Share this campaign with your friends and family</p>
             <ul class="shareoptions">
               <li>
-                <a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="" rel="noopener" target="_blank"><i class="fab fa-facebook-f"></i></a>
               </li>
               <li>
-                <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="" rel="noopener" target="_blank"><i class="fab fa-twitter"></i></a>
               </li>
               <li>
-                <a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="" rel="noopener" target="_blank"><i class="fab fa-linkedin-in"></i></a>
               </li>
               <li>
-                <a href="mailto:" target="_blank"><i class="fal fa-envelope"></i></a>
+                <a href="mailto:" rel="noopener" target="_blank"><i class="fal fa-envelope"></i></a>
               </li>
             </ul>
           </div>
