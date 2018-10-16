@@ -12,7 +12,7 @@ $nav = (is_page_template('template-full-width.php')) ? '' : '/';
 <div class="grid-container nav-container">
   <div class="grid-x">
     <div class="small-6 medium-2 large-2 cell">
-      <div class="ebc_logo"></div>
+      <div class="ebc_logo"><a href="/"></a></div>
     </div>
     <div class="small-6 medium-10 large-10 cell nav">
       <div class="show-for-small-only">
