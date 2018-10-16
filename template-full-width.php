@@ -15,7 +15,7 @@ get_header(); ?>
           <div class="medium-6 large-6 cell">
             <h2>Ask our<br>legislative leaders to<br><b>help babies thrive</b></h2>
             <p>Your voice is powerful. Share it. Without it, neonatal intensive care unit hospital beds for our sickest babies are in jeopardy of closing. Join the cause now.</p>
-            <button class="pinkBtn">Sign the petition</button>
+            <button class="pinkBtn"><a href="#petition-block">Sign the petition</a></button>
           </div>
           <div class="medium-6 large-6 cell">
             <img src="<?php echo get_template_directory_uri() . '/assets/images/nicu.jpg'; ?>">
@@ -26,7 +26,7 @@ get_header(); ?>
     </div>
     
     <!-- Action Block 2 -->
-    <div class="action-block2">
+    <div class="action-block2" id="action-block2">
       
       <!-- Tier 2: Take Action columns -->
       <div class="grid-container tier2">

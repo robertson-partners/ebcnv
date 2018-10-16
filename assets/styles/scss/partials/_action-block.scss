@@ -17,9 +17,15 @@
     
     button {
       background-color: map-get($pink, alt);
-      color: #fff;
-      padding: 1rem;
       font-size: 1.2rem;
+
+      a {
+        color: #fff;
+        padding: 1rem;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 }
