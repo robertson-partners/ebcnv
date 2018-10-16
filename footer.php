@@ -13,11 +13,11 @@
             <div class="grid-container">
               <div class="inner-footer grid-x grid-margin-x grid-padding-x">
 
-                <div class="small-6 medium-3 large-3 cell">
+                <div class="small-6 medium-4 large-4 cell">
                   <p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
                 </div>
 
-                <div class="small-6 medium-9 large-9 cell">
+                <div class="small-6 medium-8 large-8 cell">
                   <nav role="navigation">
                     <?php joints_footer_links(); ?>
                   </nav>
