@@ -147,7 +147,7 @@ get_header(); ?>
                 <a href="" rel="noopener" target="_blank"><i class="fab fa-linkedin-in"></i></a>
               </li>
               <li>
-                <a href="mailto:" rel="noopener" target="_blank"><i class="fal fa-envelope"></i></a>
+                <a href="mailto:[yourfriends@andfamily]?subject=Sick%20Babies%20Need%20Our%20Help&body=It%20matters%20to%20me%20that%20our%20community%27s%20sickest%20babies%20and%20children%20continue%20to%20receive%20the%20critical%2C%0Alife-saving%20care%20they%20need%20to%20survive%20and%20thrive.%20Please%20support%20and%20share%20this%20cause%3A%20www.everybabycountsnv.org" rel="noopener" target="_blank"><i class="fal fa-envelope"></i></a>
               </li>
             </ul>
           </div>
