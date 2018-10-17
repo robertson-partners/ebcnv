@@ -37,19 +37,19 @@ get_header(); ?>
         </div>
         <div class="grid-x grid-padding-x">
           <div class="medium-3 large-3 cell">
-            <h3>sign the <br><b>petition</b></h3>
+            <a href="#petition-block"><h3>sign the <br><b>petition</b></h3></a>
             <p>please sign your name to this cause. every signature counts.</p>
           </div>
           <div class="medium-3 large-3 cell">
-            <h3>opt in for <br><b>updates</b></h3>
-            <p>opt in for email and we'll send you updates on our progress.</p>
+            <a href="#petition-block"><h3>opt in for <br><b>updates</b></h3></a>
+            <p>opt in for email, and we'll send you updates on our progress.</p>
           </div>
           <div class="medium-3 large-3 cell">
-            <h3>send a <br><b>letter</b></h3>
-            <p>we wrote it. you sign it. we'll send it to your representatives.</p>
+            <a href="#letter-block"><h3>send a <br><b>letter</b></h3></a>
+            <p>we wrote it. you sign it. we'll help you send it to your representatives.</p>
           </div>
           <div class="medium-3 large-3 cell">
-            <h3>share for a <br><b>solution</b></h3>
+            <a href="#share-block"><h3>share for a <br><b>solution</b></h3></a>
             <p>spread the word. share this page on social media with your friends.</p>
           </div>
         </div>
@@ -64,7 +64,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x">
           <div class="medium-12 large-12 cell formblock">
             <h2><b>sign</b> the petition</h2>
-            <p>by signing this petition you are stating that you want funding to flow directly to the babies that need care.</p>
+            <p>by signing this petition, you are stating that you want funding to flow directly to the babies that need care.</p>
             <?php echo do_shortcode("[caldera_form id='CF5bb525f2c8f98']"); ?>
           </div>
           <div class="medium-5 large-5 cell signatureblock">
@@ -101,9 +101,9 @@ get_header(); ?>
               <hr>
               <div class="editabletxt" id="letterbox" contenteditable="true">
                 <p><b><span>To whom it may concern,</span></b></p>
-                <p><span>The critical, life-saving and advanced care many of Nevada's smallest and sickest citizens receive at Sunrise Hospital's Neonatal Intensive Care Unit and other pediatric departments is important to our community. As the only hospital in Southern Nevada fully equipped to treat our state's sickest and smallest babies, and the largest provider of Medicaid services in our state, Sunrise Hospital plays an important roles in the health of Nevada families.</span></p>
+                <p><span>The critical, life-saving and advanced care many of Nevada's smallest and sickest citizens receive at Sunrise Hospital's Neonatal Intensive Care Unit and other pediatric departments is important to our community. As the only hospital in Southern Nevada fully equipped to treat our state's sickest and smallest babies and the largest provider of Medicaid services in our state, Sunrise Hospital plays an important role in the health of Nevada families.</span></p>
                 <p><span>To ensure these critical services can continue to be provided to families, children and babies in Southern Nevada, I ask for your support as the hospital seeks a fair and equitable distribution of Medicaid reimbursements commensurate with the services it provides. It matters to me that our community's sickest babies and children continue to receive the critical, life-saving care they need to survive and thrive.</span></p>
-                <p><span>(Write your own words here, or anywhere throughout this letter.)</span></p>
+                <p><span>(Write your own words here or anywhere throughout this letter.)</span></p>
                 <p><span>Signed,</span></p>
                 <p><b><span>(Your name here)</span></b></p>
               </div>
