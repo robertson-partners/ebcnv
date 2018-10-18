@@ -137,14 +137,11 @@ get_header(); ?>
             <h2><b>share</b> for a solution</h2>
             <p>Share this campaign with your friends and family</p>
             <?php
-            if (isset($_GET['devmode'])){
-              echo "<br>test<br>";
-
               if(function_exists('social_warfare')):
                 social_warfare();
               endif;
-            }
             ?>
+            <!--
             <ul class="shareoptions">
               <li>
                 <a href="" rel="noopener" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -159,6 +156,7 @@ get_header(); ?>
                 <a href="mailto:[yourfriends@andfamily]?subject=Sick%20Babies%20Need%20Our%20Help&body=It%20matters%20to%20me%20that%20our%20community%27s%20sickest%20babies%20and%20children%20continue%20to%20receive%20the%20critical%2C%0Alife-saving%20care%20they%20need%20to%20survive%20and%20thrive.%20Please%20support%20and%20share%20this%20cause%3A%20www.everybabycountsnv.org" rel="noopener" target="_blank"><i class="fal fa-envelope"></i></a>
               </li>
             </ul>
+            -->
           </div>
         </div>
       </div>
