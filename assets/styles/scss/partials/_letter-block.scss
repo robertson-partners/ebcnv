@@ -170,8 +170,8 @@
           margin: 0 0 2rem;
           
           li {
-            list-style-type: square;
-            font-size: 1rem;
+            list-style-type: none;
+            font-size: 0.875rem;
 
             @include breakpoint(small down){
               list-style-type: none;
