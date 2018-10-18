@@ -71,7 +71,7 @@ div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt)
   text-align: center;
   border-radius: 50px;
   color: #fff;
-  margin-right: 0 1.25rem 0 0 !important;
+  margin: 0 1.25rem 0 0 !important;
 
   a {
     /*
@@ -92,7 +92,7 @@ div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt)
     text-align: center;
     border-radius: 50px;
     color: #fff;
-    margin-right: 0 1.25rem 0 0 !important;
+    margin: 0 1.25rem 0 0 !important;
   }
 }
 
@@ -107,4 +107,13 @@ div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt)
 }
 .swp_social_panel.swp_flat_fresh.swp_default_full_color .swp_email, body .swp_social_panel.swp_flat_fresh.swp_other_full_color:hover .swp_email:not(:hover), html body .swp_social_panel.swp_flat_fresh.swp_individual_full_color .swp_email:hover {
   border: none;
+}
+
+.iconFiller {
+  height: 100px;
+}
+
+.swp_social_panel .sw {
+  height: 100px;
+  line-height: 100px;
 }
