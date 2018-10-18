@@ -73,16 +73,6 @@ div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt)
   color: #fff;
   margin: 0 1.25rem 0 0 !important;
 
-  a {
-    /*
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    padding: 24.5px;
-    color: #fff;
-    */
-  }
-
   &:hover {
     display: inline-block;
     background: #81a425;
@@ -109,6 +99,14 @@ div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt)
   border: none;
 }
 
+.swp_social_panel .iconFiller {
+  width: 40px;
+}
+
+.swp_social_panel span.iconFiller {
+  font-size: 2rem;
+}
+
 .iconFiller {
   height: 100px;
 }
@@ -116,4 +114,10 @@ div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt)
 .swp_social_panel .sw {
   height: 100px;
   line-height: 100px;
+}
+
+span.swp_share {
+  line-height: 100px;
+  height: 100px;
+  margin: 0 0 0 10px;
 }
