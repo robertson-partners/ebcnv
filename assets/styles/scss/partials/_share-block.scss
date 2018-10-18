@@ -65,12 +65,13 @@
 div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt) {
   display: inline-block;
   background: #81a425;
-  width: 100px;
+  max-width: 100px;
+  height: 100px;
   font-size: 2rem;
   text-align: center;
   border-radius: 50px;
   color: #fff;
-  margin-right: 0 1.25rem 0 0;
+  margin-right: 0 1.25rem 0 0 !important;
 
   a {
     /*
@@ -85,12 +86,13 @@ div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt)
   &:hover {
     display: inline-block;
     background: #81a425;
-    width: 100px;
+    max-width: 100px;
+    height: 100px;
     font-size: 2rem;
     text-align: center;
     border-radius: 50px;
     color: #fff;
-    margin-right: 1rem;
+    margin-right: 0 1.25rem 0 0 !important;
   }
 }
 
