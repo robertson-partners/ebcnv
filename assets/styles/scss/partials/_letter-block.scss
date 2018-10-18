@@ -12,6 +12,10 @@
     padding-bottom: 2rem;
   }
 
+  .hidden-date {
+    display: none;
+  }
+
   .letterbox {
     position: relative;
     background: $vlight-gray;
@@ -64,7 +68,6 @@
     color: $white;
     border-radius: 6px;
     font-size: 0.85rem;
-    display: inline-block;
     padding: 4px 8px;
     margin-right: 1rem;
     cursor: pointer;
@@ -76,10 +79,13 @@
       background: #c14c20;
     }
   }
+  .copytxt, .printtxt {
+    float: right;
+  }
   .govlookup {
     background: $green;
+    display: inline-block;
     margin: 0;
-    float: right;
 
     @include breakpoint(small down){
       float: none;

@@ -94,28 +94,29 @@ get_header(); ?>
         <div class="grid-x grid-padding-x">
           <div class="medium-12 large-12 cell">
             <h2>send a <b>letter</b></h2>
-            <p>we've put together a letter. follow the steps below to send one to your representative.</p>
+            <p>we've put together a letter. you can edit it to add any personal sentiments you wish. to send your letter to the right place, look up your representatives below.</p>
             <div class="letterbox">
               <div class="letterreset" id="letterreset"><i class="fal fa-redo"></i> start over</div>
               <div class="instructions"><i class="fal fa-pencil"></i> Edit the letter by clicking/tapping below</div>
               <hr>
+              <p class="hidden-date"><?php echo date('F jS, Y'); ?></p>
               <div class="editabletxt" id="letterbox" contenteditable="true">
                 <p><b><span>To whom it may concern,</span></b></p>
-                <p><span>The critical, life-saving and advanced care many of Nevada's smallest and sickest citizens receive at Sunrise Hospital's Neonatal Intensive Care Unit and other pediatric departments is important to our community. As the only hospital in Southern Nevada fully equipped to treat our state's sickest and smallest babies and the largest provider of Medicaid services in our state, Sunrise Hospital plays an important role in the health of Nevada families.</span></p>
-                <p><span>To ensure these critical services can continue to be provided to families, children and babies in Southern Nevada, I ask for your support as the hospital seeks a fair and equitable distribution of Medicaid reimbursements commensurate with the services it provides. It matters to me that our community's sickest babies and children continue to receive the critical, life-saving care they need to survive and thrive.</span></p>
-                <p><span>(Write your own words here or anywhere throughout this letter.)</span></p>
+                <p><span>The critical, life-saving and advanced care many of Nevada’s smallest and sickest citizens receive at Sunrise Hospital’s Neonatal Intensive Care Unit and other pediatric departments is important to our state. As the only hospital in Nevada fully equipped to treat our state’s sickest and smallest babies and the state’s largest provider of Medicaid services, Sunrise Hospital plays an important role in the health of Nevada families.</span></p>
+                <p><span>To ensure these critical services can continue to be provided to families, children and babies in Nevada, I ask for your support as the hospital seeks a fair and equitable distribution of Medicaid reimbursements commensurate with the services it provides. It matters to me that Nevada’s sickest babies and children continue to receive the critical, life-saving care they need to survive and thrive.</span></p>
+                <p class="hide-on-print"><span>(Write your own words here or anywhere throughout this letter.)</span></p>
                 <p><span>Signed,</span></p>
-                <p><b><span>(Your name here)</span></b></p>
+                <p class="hide-on-print"><b><span>(Your name here)</span></b></p>
               </div>
               <hr>
+              <div class="govlookup" id="govlookup">
+                <i class="fal fa-landmark"></i> Click here to look up<br>your government officials
+              </div>
               <div class="copytxt" id="copytxt" data-clipboard-target="#letterbox">
                 <i class="fal fa-copy"></i> Click here to Copy<br> the text of your letter
               </div>
               <div class="printtxt" id="printtxt">
                 <i class="fal fa-print"></i> Click here to<br>print your letter
-              </div>
-              <div class="govlookup" id="govlookup">
-                <i class="fal fa-landmark"></i> Click here to look up<br>your government officials
               </div>
               <div class="lookupform" id="lookupform">
                 <hr>

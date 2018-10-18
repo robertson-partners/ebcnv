@@ -27,9 +27,16 @@ body {
             }
           }
         }
+        .hidden-date {
+          display: block;
+          font-size: 1rem;
+          text-align: right;
+          padding: 0;
+          margin: 0;
+        }
       }
-      .copytxt, .printtxt, .copyfunc {
-        display: none;
+      .copytxt, .printtxt, .govlookup, .copyfunc, .hide-on-print {
+        display: none !important;
       }
     }
   }
