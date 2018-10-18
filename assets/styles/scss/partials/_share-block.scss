@@ -56,6 +56,11 @@
 }
 
 /** STYLE OVERRIDES FOR SOCIAL WARFARE **/
+.swp_social_panel {
+  height: 100px;
+  margin: 0 !important;
+  justify-content: end;
+}
 
 div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt) {
   display: inline-block;
@@ -65,14 +70,16 @@ div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt)
   text-align: center;
   border-radius: 50px;
   color: #fff;
-  margin-right: 1rem;
+  margin-right: 0 1.25rem 0 0;
 
   a {
+    /*
     display: inline-block;
     width: 100%;
     height: 100%;
     padding: 24.5px;
     color: #fff;
+    */
   }
 
   &:hover {
@@ -85,4 +92,17 @@ div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt)
     color: #fff;
     margin-right: 1rem;
   }
+}
+
+.swp_social_panel.swp_flat_fresh.swp_default_full_color .swp_facebook, body .swp_social_panel.swp_flat_fresh.swp_other_full_color:hover .swp_facebook:not(:hover), html body .swp_social_panel.swp_flat_fresh.swp_individual_full_color .swp_facebook:hover {
+  border: none;
+}
+.swp_social_panel.swp_flat_fresh.swp_default_full_color .swp_twitter, body .swp_social_panel.swp_flat_fresh.swp_other_full_color:hover .swp_twitter:not(:hover), html body .swp_social_panel.swp_flat_fresh.swp_individual_full_color .swp_twitter:hover {
+  border: none;
+}
+.swp_social_panel.swp_flat_fresh.swp_default_full_color .swp_linkedin, body .swp_social_panel.swp_flat_fresh.swp_other_full_color:hover .swp_linkedin:not(:hover), html body .swp_social_panel.swp_flat_fresh.swp_individual_full_color .swp_linkedin:hover {
+  border: none;
+}
+.swp_social_panel.swp_flat_fresh.swp_default_full_color .swp_email, body .swp_social_panel.swp_flat_fresh.swp_other_full_color:hover .swp_email:not(:hover), html body .swp_social_panel.swp_flat_fresh.swp_individual_full_color .swp_email:hover {
+  border: none;
 }
