@@ -134,7 +134,7 @@ div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt)
 
   @include breakpoint(small down){
     height: 80px;
-    line-height: 80px;
+    line-height: 85px;
   }
 }
 
@@ -145,6 +145,7 @@ span.swp_share {
 
   @include breakpoint(small down){
     height: 80px;
-    line-height: 80px;
+    line-height: 90px;
+    font-size: 0.75rem;
   }
 }
