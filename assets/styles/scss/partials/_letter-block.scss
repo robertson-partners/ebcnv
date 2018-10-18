@@ -22,6 +22,7 @@
     color: $medium-gray;
     padding: 1rem;
     font-size: 1.4rem;
+    overflow: auto;
 
     .instructions {
       color: $orange;
@@ -81,6 +82,17 @@
   }
   .copytxt, .printtxt {
     float: right;
+
+    @include breakpoint(small down){
+      float: right;
+      margin: 1rem 0 0 0;
+      display: inline-block;
+    }
+  }
+  .printtxt {
+    @include breakpoint(small down){
+      margin-bottom: 1.5rem;
+    }
   }
   .govlookup {
     background: $green;

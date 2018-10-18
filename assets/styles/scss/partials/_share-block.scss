@@ -73,6 +73,12 @@ div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt)
   color: #fff;
   margin: 0 1.25rem 0 0 !important;
 
+  @include breakpoint(small down){
+    max-width: 80px;
+    height: 80px;
+    border-radius: 40px;
+  }
+
   &:hover {
     display: inline-block;
     background: #81a425;
@@ -83,7 +89,14 @@ div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt)
     border-radius: 50px;
     color: #fff;
     margin: 0 1.25rem 0 0 !important;
+
+    @include breakpoint(small down){
+      max-width: 80px;
+      height: 80px;
+      border-radius: 40px;
+    }
   }
+
 }
 
 .swp_social_panel.swp_flat_fresh.swp_default_full_color .swp_facebook, body .swp_social_panel.swp_flat_fresh.swp_other_full_color:hover .swp_facebook:not(:hover), html body .swp_social_panel.swp_flat_fresh.swp_individual_full_color .swp_facebook:hover {
@@ -109,15 +122,29 @@ div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt)
 
 .iconFiller {
   height: 100px;
+
+  @include breakpoint(small down){
+    height: 80px;
+  }
 }
 
 .swp_social_panel .sw {
   height: 100px;
   line-height: 100px;
+
+  @include breakpoint(small down){
+    height: 80px;
+    line-height: 80px;
+  }
 }
 
 span.swp_share {
   line-height: 100px;
   height: 100px;
   margin: 0 0 0 10px;
+
+  @include breakpoint(small down){
+    height: 80px;
+    line-height: 80px;
+  }
 }

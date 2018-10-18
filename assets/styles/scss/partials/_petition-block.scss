@@ -11,6 +11,10 @@
     background: $white;
     padding: 2rem;
 
+    @include breakpoint(small down){
+      padding: 2rem .625rem;
+    }
+
     h2 {
       color: map-get($pink, alt);
       font-size: 4rem;
