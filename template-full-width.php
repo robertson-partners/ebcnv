@@ -38,19 +38,19 @@ get_header(); ?>
         <div class="grid-x grid-padding-x">
           <div class="medium-3 large-3 cell">
             <a href="#petition-block"><h3>sign the <br><b>petition</b></h3></a>
-            <p>please sign your name to this cause. every signature counts.</p>
+            <p>Please sign your name to this cause. Every signature counts.</p>
           </div>
           <div class="medium-3 large-3 cell">
             <a href="#petition-block"><h3>opt in for <br><b>updates</b></h3></a>
-            <p>opt in for email, and we'll send you updates on our progress.</p>
+            <p>Opt in for email, and we'll send you updates on our progress.</p>
           </div>
           <div class="medium-3 large-3 cell">
             <a href="#letter-block"><h3>send a <br><b>letter</b></h3></a>
-            <p>we wrote it. you sign it. we'll help you send it to your representatives.</p>
+            <p>We wrote it. You sign it. We'll help you send it to your representatives.</p>
           </div>
           <div class="medium-3 large-3 cell">
             <a href="#share-block"><h3>share for a <br><b>solution</b></h3></a>
-            <p>spread the word. share this page on social media with your friends.</p>
+            <p>Spread the word. Share this page on social media with your friends and family.</p>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x">
           <div class="medium-12 large-12 cell formblock">
             <h2><b>sign</b> the petition</h2>
-            <p>by signing this petition, you are stating that you want funding to flow directly to the babies that need care.</p>
+            <p>By signing this petition, you are stating that you want funding to flow directly to the babies that need care.</p>
             <?php echo do_shortcode("[caldera_form id='CF5bb525f2c8f98']"); ?>
           </div>
           <div class="medium-5 large-5 cell signatureblock">
@@ -94,7 +94,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x">
           <div class="medium-12 large-12 cell">
             <h2>send a <b>letter</b></h2>
-            <p>we've put together a letter. you can edit it to add any personal sentiments you wish. to send your letter to the right place, look up your representatives below.</p>
+            <p>We've put together a letter. You can edit it to add any personal sentiments you wish. To send your letter to the right place, look up your representatives below.</p>
             <div class="letterbox">
               <div class="letterreset" id="letterreset"><i class="fal fa-redo"></i> start over</div>
               <div class="instructions"><i class="fal fa-pencil"></i> Edit the letter by clicking/tapping below</div>
