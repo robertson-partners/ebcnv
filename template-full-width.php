@@ -120,7 +120,7 @@ get_header(); ?>
               </div>
               <div class="lookupform" id="lookupform">
                 <hr>
-                <?php echo do_shortcode( "[CongressLookup]" ); ?>
+                <?php echo do_shortcode( "[CongressLookup show='representative']" ); ?>
               </div>
               <div class="copyfunc" id="copyfunc"></div>
             </div>
