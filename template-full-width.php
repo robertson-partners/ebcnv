@@ -14,7 +14,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x">
           <div class="medium-6 large-6 cell">
             <h2>Ask our <br>legislative leaders to <br><b>help babies thrive</b></h2>
-            <p>Your voice is powerful. Share it. Without it, neonatal intensive care unit hospital beds for our sickest babies are in jeopardy of closing. Join the cause now.</p>
+            <p>Your voice is powerful. Share it. Without it, critical care for infants and children could halt. Join the cause now.</p>
             <button class="pinkBtn"><a href="#petition-block">Sign the petition</a></button>
           </div>
           <div class="medium-6 large-6 cell">
@@ -64,7 +64,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x">
           <div class="medium-12 large-12 cell formblock">
             <h2><b>sign</b> the petition</h2>
-            <p>By signing this petition, you are stating that you want funding to flow directly to the babies that need care.</p>
+            <p>By signing this petition, you are stating that you want critical care services for infants and children to remain in Nevada.</p>
             <?php echo do_shortcode("[caldera_form id='CF5bb525f2c8f98']"); ?>
           </div>
           <div class="medium-5 large-5 cell signatureblock">
