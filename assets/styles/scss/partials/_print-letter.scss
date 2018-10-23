@@ -55,3 +55,8 @@ body {
     width: 100%;
   }
 }
+#lookupform {
+  @media print {
+    display: none !important;
+  }
+}
