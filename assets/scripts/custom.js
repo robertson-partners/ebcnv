@@ -14,6 +14,11 @@
     $('#letterbox').html($lettercontent);
   });
 
+  // Remove "hide-on-print" element on focus
+  $('.hide-on-print > span').on('click', function(){
+    $(this).parent().remove();
+  });
+
   // Copy to Clipboard Function
   var clipboard = new ClipboardJS('#copytxt');
   clipboard.on('success', function(e) {

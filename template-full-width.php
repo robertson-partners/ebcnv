@@ -106,7 +106,7 @@ get_header(); ?>
                 <p><span>To ensure these critical services can continue to be provided to families, children and babies in Nevada, I ask for your support as the hospital seeks a fair and equitable distribution of Medicaid reimbursements commensurate with the services it provides. It matters to me that Nevada’s sickest babies and children continue to receive the critical, life-saving care they need to survive and thrive.</span></p>
                 <p class="hide-on-print"><span>(Write your own words here or anywhere throughout this letter.)</span></p>
                 <p><span>Signed,</span></p>
-                <p class="hide-on-print"><b><span>(Your name here)</span></b></p>
+                <p class="hide-on-print" style="font-weight: bold;"><span>(Your name here)</span></p>
               </div>
               <hr>
               <div class="govlookup" id="govlookup">
