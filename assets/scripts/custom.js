@@ -15,7 +15,7 @@
   });
 
   // Remove "hide-on-print" element on focus
-  $('.hide-on-print > span').on('click', function(){
+  $('#letterbox').on('click', '.hide-on-print > span', function(){
     $(this).parent().remove();
   });
 
