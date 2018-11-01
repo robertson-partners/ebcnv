@@ -1,3 +1,20 @@
+.testimonials-block {
+  background-color: map-get($pink, alt);
+  padding: 3rem 0;
+
+  .cell {
+    background-color: $white;
+    padding: 2rem 4rem;
+  }
+  h2 {
+    color: map-get($pink, alt);
+  }
+  p {
+    font-weight: 100;
+  }
+}
+
+
 footer {
   
   .inner-footer {
