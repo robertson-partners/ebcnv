@@ -142,27 +142,28 @@ get_header(); ?>
                 social_warfare();
               endif;
             ?>
-            <!--
-            <ul class="shareoptions">
-              <li>
-                <a href="" rel="noopener" target="_blank"><i class="fab fa-facebook-f"></i></a>
-              </li>
-              <li>
-                <a href="" rel="noopener" target="_blank"><i class="fab fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="" rel="noopener" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-              </li>
-              <li>
-                <a href="mailto:[yourfriends@andfamily]?subject=Sick%20Babies%20Need%20Our%20Help&body=It%20matters%20to%20me%20that%20our%20community%27s%20sickest%20babies%20and%20children%20continue%20to%20receive%20the%20critical%2C%0Alife-saving%20care%20they%20need%20to%20survive%20and%20thrive.%20Please%20support%20and%20share%20this%20cause%3A%20www.everybabycountsnv.org" rel="noopener" target="_blank"><i class="fal fa-envelope"></i></a>
-              </li>
-            </ul>
-            -->
           </div>
         </div>
       </div>
     </div>
     <!-- Share Block -->
+
+    <!-- Testimonials Block -->
+    <div class="testimonials-block" id="testimonials-block">
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="medium-12 large-12 cell">
+            <h2><b>testimonials</b></h2>
+            <p>&ldquo;If we (Nevadans) didn't have the services that Sunrise has provided for Roman, I don't think he would have made it.&rdquo; – Vanessa M., Mother</p>
+            <p>&ldquo;There's nowhere else these families can go, they shouldn't have to go anywhere else. They should be able to get the treatment they need right here in their home (Nevada).&rdquo; – Arthur I., PICU Nurse Leader</p>
+            <p>&ldquo;Without the hospital's help, I wouldn't have my kids. It's extremely important that they prioritize this for people like me.&rdquo; – Brooklynn B., Mother</p>
+            <p>&ldquo;This is a community resource that we can be proud of, and can support our families throughout the state (Nevada).&rdquo; – Patricia Ramsay, NICU Medical Director</p>
+            <p>&ldquo;We provide services nobody else in the state (Nevada) provides.&rdquo; – Caren Lipsky, Staff Neonatologist</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonials Block -->
     
   </div>
 
