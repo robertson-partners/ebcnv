@@ -8,7 +8,7 @@
   }
   p {
     color: $medium-gray;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-bottom: 2rem;
   }
 
@@ -26,9 +26,9 @@
 
     .instructions {
       color: $orange;
+      font-size: 1.2rem;
 
       @include breakpoint(small down){
-        font-size: 1.2rem;
         width: 60%;
       }
     }
@@ -36,29 +36,42 @@
     .letterreset {
       position: absolute;
       font-size: 1rem;
-      background-color: $orange;
+      background-color: $light-gray;
       padding: 0.5rem;
       top: 0;
       right: 0;
-      color: $white;
+      color: $medium-gray;
+
+      &:hover {
+        color: $white;
+        background-color: $orange;
+      }
     }
     
     .editabletxt {
       padding: 1rem;
-      background-color: rgba(255,255,255,1);
+      background-color: #f2f2f2;
 
       &:focus {
         border: none;
         outline: none;
+        background-color: rgba(255,255,255,1);
+
+        p {
+          span {
+            border-bottom: 1px rgba(167,76,142,0.5) dashed;
+          }
+        }
       }
 
       p {
         color: $dark-gray;
-        line-height: 2.4rem;
+        line-height: 2rem;
+        font-weight: 100;
         margin: 0;
 
-        span {
-          border-bottom: 1px rgba(167,76,142,0.5) dashed;
+        &:last-child {
+          padding-bottom: 0;
         }
       }
     }
@@ -208,6 +221,66 @@
       color: $white;
       border-radius: 6px;
       margin-top: 1rem;
+    }
+  }
+}
+
+.letter-requirements {
+  padding: 0 1rem 1rem;
+
+  .ltr-sender {
+    label {
+      font-weight: 100;
+      font-size: 1rem;
+      color: $medium-gray;
+
+      sup {
+        color: #ff0000;
+      }
+    }
+
+    input {
+      border: 1px solid $light-gray;
+    }
+
+    .letter-req {
+      font-size: 0.85rem;
+      font-weight: 100;
+      margin-bottom: 1rem;
+
+      sup {
+        color: #ff0000;
+      }
+    }
+
+    .acknowledgment {
+      display: inline-block;
+      vertical-align: top;
+      padding: 1rem;
+
+      p {
+        font-size: .75rem;
+        padding: 0.5rem 0;
+        margin: 0;
+      }
+    }
+  }
+
+  .submit_btn_letter {
+    margin-top: 1rem;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.2rem;
+    text-align: center;
+
+    &.inactive {
+      cursor: not-allowed;
+      background: $light-gray;
+    }
+
+    &.active {
+     cursor: pointer; 
+     background: $green;
+     color: $white;
     }
   }
 }
