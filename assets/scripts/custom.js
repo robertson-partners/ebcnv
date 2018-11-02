@@ -74,6 +74,9 @@ var onloadCallback = function() {
 };
 var correctCaptcha = function(response) {
   jQuery('#gkey').val(response);
+
+  var letterContent = jQuery('#letterbox').html();
+  jQuery('#letter-content-text').val(letterContent);
   jQuery('#ltr_submit').addClass('active').removeClass('inactive').data('state', 'active');
 };
 var resetCaptcha = function(response) {

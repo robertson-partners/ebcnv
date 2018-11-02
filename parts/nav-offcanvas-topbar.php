@@ -8,6 +8,9 @@
 $nav = (is_page_template('template-full-width.php')) ? '' : '/'; 
 ?>
 
+<video class="bgvid" id="bgvid" playsinline autoplay muted loop>
+  <source src="https://assets.everybabycountsnv.org/wp-content/uploads/2018/11/02102320/ebc_bg.mp4" type="video/mp4">
+</video>
 <div class="marquee-image"></div>
 <div class="grid-container nav-container">
   <div class="grid-x">

@@ -109,22 +109,22 @@ get_header(); ?>
               </div>
 
               <!-- LETTER FORM -->
-              <div class="letter-requirements">
+              <div class="letter-requirements" id="letter-requirements">
                 <form class="ltr-sender" id="ltr-sender">
-                  <input type="hidden" id="gkey" value="">
-                  <input type="hidden" id="letter-content-text" value="">
+                  <input type="hidden" name="g-recaptcha-response" id="gkey" value="">
+                  <input type="hidden" name="letter-content-text" id="letter-content-text" value="">
                   <div class="fields grid-x grid-padding-x">
                     <div class="small-12 medium-4 large-4 cell">
                       <label for="fname_letter">Your First Name<sup>*</sup></label>
-                      <input type="text" name="fname_letter">
+                      <input type="text" id="fname_letter" name="fname_letter">
                     </div>
                     <div class="small-12 medium-4 large-4 cell">
                       <label for="lname_letter">Your Last Name<sup>*</sup></label>
-                      <input type="text" name="lname_letter">
+                      <input type="text" id="lname_letter" name="lname_letter">
                     </div>
                     <div class="small-12 medium-4 large-4 cell">
                       <label for="email_letter">Your Email Address<sup>*</sup></label>
-                      <input type="email" name="email_letter">
+                      <input type="email" id="email_letter" name="email_letter">
                     </div>
                   </div>
                   <div class="fields grid-x grid-padding-x">
@@ -145,21 +145,15 @@ get_header(); ?>
               </div>
               <!-- LETTER FORM -->
 
-              <hr>
-              <div class="govlookup" id="govlookup">
-                <i class="fal fa-landmark"></i> Click here to look up<br>your government officials
-              </div>
-              <div class="copytxt" id="copytxt" data-clipboard-target="#letterbox">
-                <i class="fal fa-copy"></i> Click here to Copy<br> the text of your letter
-              </div>
-              <div class="printtxt" id="printtxt">
-                <i class="fal fa-print"></i> Click here to<br>print your letter
-              </div>
-              <div class="lookupform" id="lookupform">
+              <div class="completed-letter" id="completed_letter">
+                <p class="yourname" id="your_name_completed"></p>
                 <hr>
-                <?php echo do_shortcode( "[CongressLookup show='representative']" ); ?>
+                <p class="thank-you">Thank you for adding your voice. Together we can ensure care for every baby in Southern Nevada.</p>
               </div>
-              <div class="copyfunc" id="copyfunc"></div>
+
+            </div>
+            <div class="printtxt" id="printtxt">
+              <i class="fal fa-print"></i> print letter
             </div>
           </div>
         </div>

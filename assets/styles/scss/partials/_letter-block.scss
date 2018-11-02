@@ -77,7 +77,7 @@
     }
   }
 
-  .copytxt, .printtxt, .govlookup {
+  .copytxt, .govlookup {
     background: $orange;
     color: $white;
     border-radius: 6px;
@@ -93,18 +93,13 @@
       background: #c14c20;
     }
   }
-  .copytxt, .printtxt {
+  .copytxt {
     float: right;
 
     @include breakpoint(small down){
       float: right;
       margin: 1rem 0 0 0;
       display: inline-block;
-    }
-  }
-  .printtxt {
-    @include breakpoint(small down){
-      margin-bottom: 1.5rem;
     }
   }
   .govlookup {
@@ -282,5 +277,47 @@
      background: $green;
      color: $white;
     }
+  }
+}
+
+.printtxt {
+  background: $dark-gray;
+  display: inline-block;
+  color: $white;
+  font-size: 1.1rem;
+  padding: 10px 18px;
+  margin: 1rem 0 0;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(240,93,37,0.85);
+  }
+  &:active {
+    background: #c14c20;
+  }
+}
+.printtxt {
+  @include breakpoint(small down){
+    margin: 1rem 0 1.5rem 0;
+    display: inline-block;
+  }
+}
+
+.completed-letter {
+  display: none;
+  padding: 0 1rem;
+
+  hr {
+    border-color: $light-gray;
+  }
+  p {
+    font-weight: 300;
+    
+    &.yourname {
+      color: $medium-gray;
+    }
+  }
+  .thank-you {
+    font-style: italic;
   }
 }
