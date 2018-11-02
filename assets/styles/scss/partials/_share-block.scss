@@ -1,7 +1,7 @@
 .share-block {
   padding: 4rem 0;
   background: map-get($pink, alt);
-  background-image: url('../images/finger-hold.jpg');
+  background-image: url('https://assets.everybabycountsnv.org/wp-content/uploads/2018/10/29123406/finger-hold.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -59,7 +59,7 @@
 .swp_social_panel {
   height: 100px;
   margin: 0 !important;
-  justify-content: end;
+  justify-content: start;
 }
 
 div.swp_social_panel .nc_tweetContainer:not(.total_shares):not(.total_sharesalt) {

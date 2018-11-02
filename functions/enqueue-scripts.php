@@ -20,10 +20,16 @@ function site_scripts() {
     $themedir = get_template_directory_uri();
     
     // Hamburger Menu Icon
-    wp_enqueue_style('hamburgers-css', $themedir . '/assets/styles/hamburgers.min.css', array(), $version, 'screen');   
+    wp_enqueue_style('hamburgers-css', $themedir . '/assets/styles/hamburgers.min.css', array(), $version, 'screen');
 
-    wp_enqueue_script( 'clipboardjs', $themedir . '/assets/scripts/clipboard.min.js', array(), $version, true );
+    // reCaptcha
+    wp_enqueue_script( 'recaptcha-js', 'https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit', array(), $version, true );
 
-    wp_enqueue_script( 'custom-js', $themedir . '/assets/scripts/custom.js', array('clipboardjs'), $version, true );
+    // All Custom Scripts
+    wp_enqueue_script( 'custom-js', $themedir . '/assets/scripts/custom.js', array('recaptcha-js'), $version, true );
+
+    // Letter Sender
+    wp_enqueue_script('letterscript', $themedir . '/assets/scripts/letter-sender.js', array('jquery'), $version, true);
+    wp_localize_script('letterscript', 'letterpost', array( 'ajax_url' => admin_url( 'admin-ajax.php' )));
 }
 add_action('wp_enqueue_scripts', 'site_scripts', 999);

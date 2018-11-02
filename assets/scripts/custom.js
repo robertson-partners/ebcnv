@@ -19,13 +19,6 @@
     $(this).parent().remove();
   });
 
-  // Copy to Clipboard Function
-  var clipboard = new ClipboardJS('#copytxt');
-  clipboard.on('success', function(e) {
-    var message = '<i class="fal fa-clipboard-check"></i> Success!';
-    $('#copyfunc').html(message).show().delay(1000).fadeOut(1000);
-  });
-
   // Show Gov't Lookup Form
   $('#govlookup').on('click', function(){
     $('#lookupform').fadeToggle(200);
@@ -69,3 +62,24 @@
   });
 
 })(jQuery);
+
+
+// reCaptcha-Callback
+var onloadCallback = function() {
+  var w1 = grecaptcha.render('g-recaptcha', {
+    'sitekey' : '6LfdfHcUAAAAAPVHFiOjcJvvIIh5CutjF-zAtyZC',
+    'callback' : correctCaptcha,
+    'expired-callback' : resetCaptcha
+  });
+};
+var correctCaptcha = function(response) {
+  jQuery('#gkey').val(response);
+
+  var letterContent = jQuery('#letterbox').html();
+  jQuery('#letter-content-text').val(letterContent);
+  jQuery('#ltr_submit').addClass('active').removeClass('inactive').data('state', 'active');
+};
+var resetCaptcha = function(response) {
+  jQuery('#gkey').val('');
+  jQuery('#ltr_submit').addClass('inactive').removeClass('active').data('state', 'inactive');
+};
