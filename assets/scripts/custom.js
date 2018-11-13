@@ -22,7 +22,7 @@
   // Show Gov't Lookup Form
   $('#govlookup').on('click', function(){
     $('#lookupform').fadeToggle(200);
-  });
+  }); 
 
   // Print Document Function
   $('#printtxt').on('click', function(){

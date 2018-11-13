@@ -321,3 +321,27 @@
     font-style: italic;
   }
 }
+
+.lastvideo-block {
+  background-color: $green;
+  padding: 3rem 0;
+
+  h2 {
+    color: $white;
+    font-weight: 100;
+  }
+
+  a {
+    display: inline-block;
+    position: relative;
+
+    .v_click {
+      position: absolute;
+      font-size: 4rem;
+      color: $white;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

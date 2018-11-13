@@ -86,3 +86,20 @@
     }
   }
 }
+
+.m_video {
+
+  a {
+    display: inline-block;
+    position: relative;
+
+    .m_click {
+      position: absolute;
+      font-size: 4rem;
+      color: map-get($pink, alt);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}

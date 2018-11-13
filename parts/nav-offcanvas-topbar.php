@@ -27,10 +27,10 @@ $nav = (is_page_template('template-full-width.php')) ? '' : '/';
       </div>
       
       <ul id="mainnav" class="mainnav">
-        <li><a href="<?php echo $nav; ?>#action-block1">about</a></li>
-        <li><a href="<?php echo $nav; ?>#petition-block">sign the petition</a></li>
-        <li><a href="<?php echo $nav; ?>#letter-block">send a letter</a></li>
-        <li><a href="<?php echo $nav; ?>#share-block">share the cause</a></li>
+        <li><a href="<?php echo $nav; ?>#action-block1" tabindex="1">about</a></li>
+        <li><a href="<?php echo $nav; ?>#petition-block" tabindex="2">sign the petition</a></li>
+        <li><a href="<?php echo $nav; ?>#letter-block" tabindex="3">send a letter</a></li>
+        <li><a href="<?php echo $nav; ?>#share-block" tabindex="4">share the cause</a></li>
       </ul>
     </div>
   </div>
