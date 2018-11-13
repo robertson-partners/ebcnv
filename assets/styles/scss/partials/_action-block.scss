@@ -92,14 +92,20 @@
   a {
     display: inline-block;
     position: relative;
+    background: #000;
 
     .m_click {
       position: absolute;
       font-size: 4rem;
-      color: map-get($pink, alt);
+      color: $white;
+      z-index: 9;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
+
+    img {
+      opacity: 0.65;
     }
   }
 }

@@ -13,7 +13,7 @@ get_header(); ?>
       <div class="grid-container tier1">
         <div class="grid-x grid-padding-x">
           <div class="medium-6 large-6 cell">
-            <h2>Ask our <br>legislative leaders to <br><b>help babies thrive</b></h2>
+            <h2>ask our <br>legislative leaders to <br><b>help babies thrive</b></h2>
             <p>Your voice is powerful. Share it. Without it, critical care for infants and children could halt. Join the cause now.</p>
             <button class="pinkBtn"><a href="#petition-block">Sign the petition</a></button>
           </div>
@@ -176,7 +176,7 @@ get_header(); ?>
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
           <div class="medium-12 large-12 cell">
-            <h2><b>no child</b> is immune from need.</h2>
+            <h2><b>no child</b> is immune from need</h2>
             <a data-open="vanessa_modal" aria-controls="vanessa_modal" aria-haspopup="true" tabindex="7">
               <i class="fab fa-youtube v_click"></i>
               <img src="https://assets.everybabycountsnv.org/wp-content/uploads/2018/11/13141137/vanessastory.jpg">
