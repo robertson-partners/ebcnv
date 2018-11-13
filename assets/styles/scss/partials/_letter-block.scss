@@ -5,6 +5,10 @@
     color: $orange;
     font-size: 4rem;
     font-weight: 300;
+
+    @include breakpoint(small down){
+      line-height: 4rem;
+    }
   }
   p {
     color: $medium-gray;

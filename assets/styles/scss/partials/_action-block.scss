@@ -22,8 +22,10 @@
     }
 
     @include breakpoint(small down){
-      img {
-        margin-top: 1rem;
+      .m_video {
+        a {
+          margin-top: 1rem;
+        }
       }
     }
     

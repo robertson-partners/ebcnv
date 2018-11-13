@@ -21,6 +21,7 @@ footer {
 
     p, li {
       font-size: 0.875rem;
+
       
       @include breakpoint(small down){
         font-size: 0.875rem;
@@ -28,8 +29,42 @@ footer {
     }
 
     .menu {
+      float: right;
 
       li {
+        padding-left: 1rem;
+
+        &.social {
+
+          &.fb {
+            a {
+              &::before {
+                font-family: "Font Awesome 5 Brands";
+                content: "\f082";
+                padding-right: 6px;
+              }
+            }
+          }
+          &.tw {
+            a {
+              &::before {
+                font-family: "Font Awesome 5 Brands";
+                content: "\f081";
+                padding-right: 6px;
+              }
+
+            }
+          }
+          &.ig {
+            a {
+              &::before {
+                font-family: "Font Awesome 5 Brands";
+                content: "\f16d";
+                padding-right: 6px;
+              }
+            }
+          }
+        }
 
         @include breakpoint(small down){
           width: 100%;
@@ -41,7 +76,6 @@ footer {
         padding: 0;
         line-height: 1.6;
         color: $dark-gray;
-        text-decoration: underline;
 
         @include breakpoint(small down){
           padding: 0;
