@@ -26,7 +26,8 @@ const SOURCE = {
 		FOUNDATION + '/dist/js/plugins/foundation.core.js',
 		FOUNDATION + '/dist/js/plugins/foundation.util.*.js',
 
-		// Pick the components you need in your project
+    // Pick the components you need in your project
+    FOUNDATION + '/dist/js/plugins/foundation.reveal.js',
 		/*
 		FOUNDATION + '/dist/js/plugins/foundation.abide.js',
 		FOUNDATION + '/dist/js/plugins/foundation.accordion.js',
@@ -41,7 +42,6 @@ const SOURCE = {
 		FOUNDATION + '/dist/js/plugins/foundation.responsiveAccordionTabs.js',
 		FOUNDATION + '/dist/js/plugins/foundation.responsiveMenu.js',
 		FOUNDATION + '/dist/js/plugins/foundation.responsiveToggle.js',
-		FOUNDATION + '/dist/js/plugins/foundation.reveal.js',
 		FOUNDATION + '/dist/js/plugins/foundation.slider.js',
 		FOUNDATION + '/dist/js/plugins/foundation.smoothScroll.js',
 		FOUNDATION + '/dist/js/plugins/foundation.magellan.js',
@@ -85,6 +85,8 @@ gulp.task('scripts', function() {
 
 	// Use a custom filter so we only lint custom JS
 	const CUSTOMFILTER = filter(ASSETS.scripts + 'js/**/*.js', {restore: true});
+
+  console.log(SOURCE.scripts);
 
 	return gulp.src(SOURCE.scripts)
 		.pipe(plugin.plumber(function(error) {

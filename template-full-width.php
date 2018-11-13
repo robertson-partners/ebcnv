@@ -17,10 +17,20 @@ get_header(); ?>
             <p>Your voice is powerful. Share it. Without it, critical care for infants and children could halt. Join the cause now.</p>
             <button class="pinkBtn"><a href="#petition-block">Sign the petition</a></button>
           </div>
-          <div class="medium-6 large-6 cell">
-            <img src="https://assets.everybabycountsnv.org/wp-content/uploads/2018/10/29123409/mom-baby.jpg">
+          <div class="medium-6 large-6 cell m_video">
+            <a data-open="michelle_modal" aria-controls="michelle_modal" aria-haspopup="true" tabindex="7">
+              <i class="fab fa-youtube m_click"></i>
+              <img src="https://assets.everybabycountsnv.org/wp-content/uploads/2018/11/13141137/michellestory.jpg">
+            </a>
           </div>
         </div>
+      </div>
+      <!-- Modal -->
+      <div class="reveal" id="michelle_modal" data-reveal data-animation-in="fade-in" data-animation-out="fade-out" data-reset-on-close="true">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zesr_rlF2l8?cc_load_policy=1&enablejsapi=1&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <button class="close-button" data-close aria-label="Close modal" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
       
     </div>
@@ -160,6 +170,30 @@ get_header(); ?>
       </div>
     </div>
     <!-- Letter Block -->
+
+    <!-- Video Block -->
+    <div class="lastvideo-block" id="lastvideo-block">
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="medium-12 large-12 cell">
+            <h2><b>no child</b> is immune from need.</h2>
+            <a data-open="vanessa_modal" aria-controls="vanessa_modal" aria-haspopup="true" tabindex="7">
+              <i class="fab fa-youtube v_click"></i>
+              <img src="https://assets.everybabycountsnv.org/wp-content/uploads/2018/11/13141137/vanessastory.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal -->
+    <div class="reveal" id="vanessa_modal" data-reveal data-animation-in="fade-in" data-animation-out="fade-out" data-reset-on-close="true">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/WUSiuADYICM?cc_load_policy=1&enablejsapi=1&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <!-- Video Block -->
 
     <!-- Share Block -->
     <div class="share-block" id="share-block">
