@@ -133,9 +133,9 @@
   font-weight: 100;
 
   &:hover {
-    color: map-get($pink, alt);
+    color: $white;
   }
   &:focus {
-    color: map-get($pink, alt);
+    color: $white;
   }
 }
