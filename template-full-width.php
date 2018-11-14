@@ -22,6 +22,9 @@ get_header(); ?>
               <i class="fab fa-youtube m_click"></i>
               <img src="https://assets.everybabycountsnv.org/wp-content/uploads/2018/11/13141137/michellestory.jpg">
             </a>
+            <a data-open="vanessa_modal" aria-controls="vanessa_modal" aria-haspopup="true" tabindex="8" class="captiontitle">
+              <span>see <b>Vanessa's</b> story</span>
+            </a>
           </div>
         </div>
       </div>
@@ -180,6 +183,9 @@ get_header(); ?>
             <a data-open="michelle_modal" aria-controls="michelle_modal" aria-haspopup="true" tabindex="12">
               <i class="fab fa-youtube v_click"></i>
               <img src="https://assets.everybabycountsnv.org/wp-content/uploads/2018/11/13141137/vanessastory.jpg">
+            </a>
+            <a data-open="michelle_modal" aria-controls="michelle_modal" aria-haspopup="true" tabindex="12" class="captiontitle2">
+              <span>see <b>Vanessa's</b> story</span>
             </a>
           </div>
         </div>
