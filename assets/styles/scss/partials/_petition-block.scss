@@ -7,6 +7,10 @@
   color: $medium-gray;
   padding: 4rem 0;
 
+  @include breakpoint(small down) {
+    padding: 0;
+  }
+
   .formblock {
     background: $white;
     padding: 2rem;
