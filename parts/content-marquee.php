@@ -8,7 +8,7 @@
   <div class="grid-x">
     <div class="large-9 cell marquee-content">
       <h1>Nevada's sickest babies need your help</h1>
-      <p>Without your voice, life-saving care for infants and children provided by Sunrise Hospital could halt, leaving Nevada families no choice but to leave the state to seek care. Our community deserves better.</p>
+      <p>Without your voice, life-saving care for infants and children provided by Sunrise Hospital could halt, leaving some Nevada families no choice but to leave the state to seek care. Our community deserves better.</p>
       <button><a href="#action-block2" tabindex="6">Take action now</a></button>&nbsp;&nbsp;
       <div class="buttonlike"><a data-open="brooklynn_modal" aria-controls="brooklynn_modal" aria-haspopup="true" tabindex="5">See Brooklynn's Story <i class="fab fa-youtube"></i></a></div>
     </div>
