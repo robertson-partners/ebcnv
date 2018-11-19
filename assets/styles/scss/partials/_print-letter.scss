@@ -1,6 +1,6 @@
 body {
   @media print {
-    header, .action-block1, .action-block2, .petition-block, .share-block, .letter-requirements, .testimonials-block, footer {
+    header, .action-block1, .action-block2, .petition-block, .share-block, .letter-requirements, .testimonials-block, .lastvideo-block, footer {
       display: none;
     }
     .letter-block {

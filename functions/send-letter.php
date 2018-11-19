@@ -42,6 +42,7 @@ function letter_sender() {
 
     // Mod Letter
     $letter = str_ireplace("To whom it may concern,", "%recipient_name%,", $letter);
+    $letter = str_ireplace("(Write your own words here or anywhere throughout this letter.)", "", $letter);
 
     $letter.= "\r\n".$name;
 
