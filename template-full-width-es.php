@@ -77,7 +77,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x">
           <div class="medium-12 large-12 cell formblock">
             <h2><b>sign</b> the petition</h2>
-            <p>By signing this petition, you are stating that you want critical care services for infants and children to remain in Nevada by asking legislators to support a fair and equitable distribution of Medicaid reimbursements.</p>
+            <p>By signing this petition, you are stating that you want critical care services for infants and children to remain in Nevada.</p>
             <?php echo do_shortcode("[caldera_form id='CF5bb525f2c8f98']"); ?>
           </div>
           <div class="medium-5 large-5 cell signatureblock">
