@@ -47,14 +47,16 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-		<div class="off-canvas-wrapper">			
+		<div class="off-canvas-wrapper <?php echo (is_page_template('template-full-width-es.php')) ? 'es-lang' : ''; ?>">			
 			<div class="off-canvas-content" data-off-canvas-content>
 				
-				<header class="header <?php echo (is_page_template('template-full-width.php')) ? 'home' : 'other'; ?>" role="banner">
+				<header class="header <?php echo (is_page_template('template-full-width.php') || is_page_template('template-full-width-es.php')) ? 'home' : 'other'; ?>" role="banner">
           <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
           <?php 
             if(is_page_template('template-full-width.php')){
               get_template_part( 'parts/content', 'marquee');
+            } else if ( is_page_template('template-full-width-es.php')){
+              get_template_part( 'parts/content', 'marquee-es');
             } else {
               get_template_part( 'parts/content', 'marquee_other');
             }

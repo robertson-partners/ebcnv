@@ -73,3 +73,17 @@ article {
   right: 0rem;
   top: -0.5rem;
 }
+
+.es-lang {
+  .marquee-content {
+    h1 {
+      line-height: 3.5rem;
+      font-size: 3.25rem;
+
+      @include breakpoint(small down){
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+      }
+    }
+  }
+}

@@ -1,16 +1,16 @@
 <?php
 /**
- * The template part for marquee content
+ * The template part for marquee content SPANISH
  */
 ?>
 
 <div class="grid-container">
   <div class="grid-x">
     <div class="large-9 cell marquee-content">
-      <h1>Nevada's sickest babies need your help</h1>
-      <p>Without your voice, life-saving care for infants and children provided by Sunrise Hospital could halt, leaving some Nevada families no choice but to leave the state to seek care. Our community deserves better.</p>
-      <button><a href="#action-block2" tabindex="6">Take action now</a></button>&nbsp;&nbsp;
-      <div class="buttonlike"><a data-open="brooklynn_modal" aria-controls="brooklynn_modal" aria-haspopup="true" tabindex="5">See Brooklynn's Story <i class="fab fa-youtube"></i></a></div>
+      <h1>Los bebés más enfermos de Nevada necesitan tu ayuda</h1>
+      <p>Sin su voz, la atención para salvar la vida de los bebés y los niños provista por el Hospital Sunrise podría detenerse, lo que dejaría a algunas familias de Nevada sin otra opción que abandonar el estado para buscar atención. Nuestra comunidad merece algo mejor.</p>
+      <button><a href="#action-block2" tabindex="6">Toma acción ahora</a></button>&nbsp;&nbsp;
+      <div class="buttonlike"><a data-open="brooklynn_modal" aria-controls="brooklynn_modal" aria-haspopup="true" tabindex="5">Ve la historia de Brooklynn <i class="fab fa-youtube"></i></a></div>
     </div>
     <div class="large-3 cell">
     </div>

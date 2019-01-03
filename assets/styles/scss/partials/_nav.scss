@@ -119,6 +119,11 @@ header {
         display: block;
       }
 
+      &.es-nav {
+        font-size: 1rem;
+        margin-left: 2rem;
+      }
+
       a {
         color: $white;
         

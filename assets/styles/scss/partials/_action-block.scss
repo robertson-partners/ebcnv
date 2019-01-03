@@ -139,3 +139,24 @@
     color: $white;
   }
 }
+
+/* SPANISH VERSION */
+.es-lang {
+  .action-block1 {
+    .tier1 {
+      h2 {
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+      }
+    }
+  }
+
+  .action-block2 {
+    .tier2 {
+      h3 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+      }
+    }
+  }
+}
