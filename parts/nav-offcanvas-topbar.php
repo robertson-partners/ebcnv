@@ -10,7 +10,7 @@ $nav = (is_page_template('template-full-width.php') || is_page_template('templat
 
 <?php if ($nav == ''){ ?>
   <video class="bgvid" id="bgvid" playsinline autoplay muted loop>
-    <source src="https://assets.everybabycountsnv.org/wp-content/uploads/2018/11/02102320/ebc_bg.mp4" type="video/mp4">
+    <source src="https://everybabycountsnv.org/wp-content/uploads/2018/11/ebc_bg.mp4" type="video/mp4">
   </video>
 <?php } ?>
 
