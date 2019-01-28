@@ -26,7 +26,7 @@ function site_scripts() {
     //wp_enqueue_script( 'recaptcha-js', 'https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit', array(), $version, true );
 
     // All Custom Scripts
-    wp_enqueue_script( 'custom-js', $themedir . '/assets/scripts/custom.js', array('recaptcha-js'), $version, true );
+    wp_enqueue_script( 'custom-js', $themedir . '/assets/scripts/custom.js', array(), $version, true );
 
     // Letter Sender
     //wp_enqueue_script('letterscript', $themedir . '/assets/scripts/letter-sender.js', array('jquery'), $version, true);
