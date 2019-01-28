@@ -20,7 +20,7 @@ get_header(); ?>
           <div class="medium-6 large-6 cell m_video">
             <a data-open="vanessa_modal" aria-controls="vanessa_modal" aria-haspopup="true" tabindex="7">
               <i class="fab fa-youtube m_click"></i>
-              <img src="https://everybabycountsnv.org/wp-content/uploads/2018/11/13141137/michellestory.jpg">
+              <img src="https://everybabycountsnv.org/wp-content/uploads/2018/11/michellestory.jpg">
             </a>
             <a data-open="vanessa_modal" aria-controls="vanessa_modal" aria-haspopup="true" tabindex="8" class="captiontitle">
               <span>see <b>Vanessa's</b> story <i class="fab fa-youtube"></i></span>
