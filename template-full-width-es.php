@@ -80,22 +80,6 @@ get_header(); ?>
             <p>Al firmar esta petición, usted declara que desea que los servicios de cuidados críticos para bebés y niños permanezcan en Nevada.</p>
             <?php echo do_shortcode("[caldera_form id='CF5c2e79306d663']"); ?>
           </div>
-          <div class="medium-5 large-5 cell signatureblock">
-            <h2><b>32,942</b><br>have signed</h2>
-            <ul class="signatories">
-              <li>Thomas M. in 89135</li>
-              <li>Linda C. in 89112</li>
-              <li>Fritz L. in 89030</li>
-              <li>Elvis P. in 89101</li>
-              <li>Barack O. in 60007</li>
-              <li>Taytay S. in 37011</li>
-              <li>Elvis P. in 89101</li>
-              <li>Barack O. in 60007</li>
-              <li>Taytay S. in 37011</li>
-              <li>Elvis P. in 89101</li>
-              <li>Barack O. in 60007</li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
@@ -106,67 +90,10 @@ get_header(); ?>
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
           <div class="medium-12 large-12 cell">
-            <h2>enviar una <b>carta</b></h2>
-            <p>Hemos redactado una carta. Puede editarlo para agregar cualquier sentimiento personal que desee. Haga clic en "Enviar" debajo de la carta para enviarla a su estado y representantes locales.</p>
-            <div class="letterbox">
-              <div class="letterreset" id="letterreset"><i class="fal fa-redo"></i> reiniciar</div>
-              <div class="instructions"><i class="fal fa-pencil"></i> Edite la carta haciendo clic / tocando abajo</div>
-              <hr>
-              <p class="hidden-date"><?php echo date('F jS, Y'); ?></p>
-              <div class="editabletxt" id="letterbox" contenteditable="true">
-                <p><span>A quien le corresponda,</span></p>
-                <p><span>La atención crítica, vital y avanzada que muchos de los ciudadanos más pequeños y enfermos de Nevada reciben en la Unidad de cuidados intensivos neonatales de Hospital Sunrise y otros departamentos pediátricos son importantes para nuestro estado. Como el único hospital en Nevada completamente equipado para tratar a los bebés más enfermos y pequeños de nuestro estado y el proveedor de servicios de Medicaid más grande del estado, el Hospital Sunrise desempeña un papel importante en la salud de algunas familias de Nevada.</span></p>
-                <p><span>Para garantizar que se puedan seguir brindando estos servicios críticos a las familias, los niños y los bebés en Nevada, solicito su apoyo, ya que el hospital busca una distribución justa y equitativa de los reembolsos de Medicaid acordes con los servicios que brinda. Para mí es importante que los bebés y los niños más enfermos de Nevada continúen recibiendo la atención crítica y vital que necesitan para sobrevivir y prosperar.</span></p>
-                <p class="hide-on-print"><span>(Escriba sus propias palabras aquí o en cualquier lugar a lo largo de esta carta.)</span></p>
-                <p><span>Firma,</span></p>
-              </div>
-
-              <!-- LETTER FORM -->
-              <div class="letter-requirements" id="letter-requirements">
-                <form class="ltr-sender" id="ltr-sender">
-                  <input type="hidden" name="g-recaptcha-response" id="gkey" value="">
-                  <input type="hidden" name="letter-content-text" id="letter-content-text" value="">
-                  <div class="fields grid-x grid-padding-x">
-                    <div class="small-12 medium-4 large-4 cell">
-                      <label for="fname_letter">Su nombre<sup>*</sup></label>
-                      <input type="text" id="fname_letter" name="fname_letter">
-                    </div>
-                    <div class="small-12 medium-4 large-4 cell">
-                      <label for="lname_letter">Su apellido<sup>*</sup></label>
-                      <input type="text" id="lname_letter" name="lname_letter">
-                    </div>
-                    <div class="small-12 medium-4 large-4 cell">
-                      <label for="email_letter">Su correo electrónico<sup>*</sup></label>
-                      <input type="email" id="email_letter" name="email_letter">
-                    </div>
-                  </div>
-                  <div class="fields grid-x grid-padding-x">
-                    <div class="small-12 medium-12 large-12 cell letter-req">
-                      <sup>*</sup> Denota un campo requerido
-                    </div>
-                  </div>
-                  <div class="g-recaptcha" id="g-recaptcha"></div>
-                  <div class="submit_letter grid-x grid-padding-x" id="submit_letter">
-                    <div class="small-12 medium-4 large-4 cell">
-                      <div class="submit_btn_letter inactive" data-state="inactive" id="ltr_submit"><i class="fal fa-envelope-open"></i> envíe su carta</div>
-                    </div>
-                    <div class="small-12 medium-8 large-8 cell acknowledgment">
-                      <p>Al hacer clic en "enviar su carta", usted reconoce que su carta no es comercial, contiene contenido respetuoso y es apropiado para ser entregada a su representante estatal / local de Nevada.</p>
-                    </div>
-                  </div>
-                </form>
-              </div>
-              <!-- LETTER FORM -->
-
-              <div class="completed-letter" id="completed_letter">
-                <p class="yourname" id="your_name_completed"></p>
-                <hr>
-                <p class="thank-you">Gracias por agregar tu voz. Juntos podemos asegurar el cuidado de cada bebé en el sur de Nevada.</p>
-              </div>
-
-            </div>
-            <div class="printtxt" id="printtxt">
-              <i class="fal fa-print"></i> Imprima la carta
+          <h2>enviar una <b>carta</b></h2>
+            <!-- VOTER VOICE TEST -->
+            <script type="text/javascript" src="https://www.votervoice.net/Scripts/Cg0AAAAAAAA/Plugin.js?app=campaigns"></script><vv:main></vv:main>
+            <!-- END VOTER VOICE -->
             </div>
           </div>
         </div>

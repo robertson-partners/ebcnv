@@ -80,22 +80,6 @@ get_header(); ?>
             <p>By signing this petition, you are stating that you want critical care services for infants and children to remain in Nevada by asking legislators to support a fair and equitable distribution of Medicaid reimbursements.</p>
             <?php echo do_shortcode("[caldera_form id='CF5bb525f2c8f98']"); ?>
           </div>
-          <div class="medium-5 large-5 cell signatureblock">
-            <h2><b>32,942</b><br>have signed</h2>
-            <ul class="signatories">
-              <li>Thomas M. in 89135</li>
-              <li>Linda C. in 89112</li>
-              <li>Fritz L. in 89030</li>
-              <li>Elvis P. in 89101</li>
-              <li>Barack O. in 60007</li>
-              <li>Taytay S. in 37011</li>
-              <li>Elvis P. in 89101</li>
-              <li>Barack O. in 60007</li>
-              <li>Taytay S. in 37011</li>
-              <li>Elvis P. in 89101</li>
-              <li>Barack O. in 60007</li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
