@@ -16,6 +16,35 @@
   p {
     font-weight: 100;
   }
+
+  &.orange_version {
+    background-color: #fff;
+    padding: 3rem 0 3rem;
+
+    .cell {
+      background-color: map-get($pink, alt);
+    }
+
+    hr {
+      border-color: #fff;
+    }
+    h2 {
+      color: #fff;
+    }
+    p {
+      color: #fff;
+      font-weight: 400;
+      line-height: 1.75;
+      
+      a {
+        color: #fff;
+        text-decoration: underline;
+        &:hover {
+          color: #eee;
+        }
+      }
+    }
+  }
 }
 
 

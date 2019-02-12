@@ -162,6 +162,21 @@ get_header(); ?>
       </div>
     </div>
     <!-- Testimonials Block -->
+
+    <!-- Press Block -->
+    <div class="testimonials-block orange_version" id="testimonials-block">
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="medium-12 large-12 cell">
+            <h2><b>press</b></h2>
+            <p>In a <em>Nevada Independent</em> Dec. 11, 2018 article titled <strong>“Sunrise Highlights Neonatal Care in Campaign to Increase Medicaid Reimbursement Rates”</strong> Megan Messerly writes that 75% of the babies in Sunrise’s neonatal intensive care unit are on Medicaid and the hospital treats 1,000 babies in the NICU yearly. As a safety net hospital, Sunrise provides care to Southern Nevada’s sickest patients. The article explains that if Sunrise doesn’t receive additional financial help via an increase in Medicaid reimbursement rates, it will not be able to continue providing its current services. To educate the public and legislators on the need for increased Medicaid reimbursement, Sunrise has launched the Every Baby Counts NV campaign. It hopes to shrink the millions it lost on Medicaid billings last year, which is a 91% increase in losses since 2012. <a href="https://thenevadaindependent.com/article/sunrise-highlights-neonatal-care-in-campaign-to-increase-medicaid-reimbursement-rates/" target="_blank" rel="noopener">Read More <i class="far fa-external-link"></i></a></p>
+            <hr>
+            <p><a href="/press"><i class="fal fa-newspaper"></i> See all press coverage</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Press Block -->
     
   </div>
 
