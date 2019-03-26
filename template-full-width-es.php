@@ -135,11 +135,7 @@ get_header(); ?>
           <div class="medium-12 large-12 cell">
             <h2><b>compartir</b> para una solución</h2>
             <p>Comparte esta campaña con tus amigos y familiares.</p>
-            <?php
-              if(function_exists('social_warfare')):
-                social_warfare();
-              endif;
-            ?>
+            <?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
           </div>
         </div>
       </div>
