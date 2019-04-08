@@ -50,19 +50,19 @@ get_header(); ?>
         </div>
         <div class="grid-x grid-padding-x">
           <div class="medium-3 large-3 cell">
-            <a href="#petition-block"><h3>sign the <br><b>petition</b></h3></a>
+            <a href="#petition-block"><p class="subhead">sign the <br><b>petition</b></p></a>
             <p>Please sign your name to this cause. Every signature counts.</p>
           </div>
           <div class="medium-3 large-3 cell">
-            <a href="#petition-block"><h3>opt in for <br><b>updates</b></h3></a>
+            <a href="#petition-block"><p class="subhead">opt in for <br><b>updates</b></p></a>
             <p>Opt in for email, and we'll send you updates on our progress.</p>
           </div>
           <div class="medium-3 large-3 cell">
-            <a href="#letter-block"><h3>send a <br><b>letter</b></h3></a>
+            <a href="#letter-block"><p class="subhead">send a <br><b>letter</b></p></a>
             <p>We wrote it. You sign it. We'll help you send it to your representatives.</p>
           </div>
           <div class="medium-3 large-3 cell">
-            <a href="#share-block"><h3>share for a <br><b>solution</b></h3></a>
+            <a href="#share-block"><p class="subhead">share for a <br><b>solution</b></p></a>
             <p>Spread the word. Share this page on social media with your friends and family.</p>
           </div>
         </div>
