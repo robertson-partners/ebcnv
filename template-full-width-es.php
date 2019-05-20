@@ -50,19 +50,19 @@ get_header(); ?>
         </div>
         <div class="grid-x grid-padding-x">
           <div class="medium-3 large-3 cell">
-            <a href="#petition-block"><h3>firme la <br><b>petición</b></h3></a>
+            <a href="#petition-block"><p class="subhead">firme la <br><b>petición</b></p></a>
             <p>Por favor, firme su nombre parar esta causa. Cada firma cuenta.</p>
           </div>
           <div class="medium-3 large-3 cell">
-            <a href="#petition-block"><h3>optar por <br><b>actualizaciones</b></h3></a>
+            <a href="#petition-block"><p class="subhead">optar por <br><b>actualizaciones</b></p></a>
             <p>Opte por correo electrónico y le enviaremos actualizaciones sobre nuestro progreso.</p>
           </div>
           <div class="medium-3 large-3 cell">
-            <a href="#letter-block"><h3>enviar una <br><b>carta</b></h3></a>
+            <a href="#letter-block"><p class="subhead">enviar una <br><b>carta</b></p></a>
             <p>Lo escribimos. Tu lo firmas Te ayudaremos a enviarlo a tus representantes.</p>
           </div>
           <div class="medium-3 large-3 cell">
-            <a href="#share-block"><h3>compartir para una <br><b>solución</b></h3></a>
+            <a href="#share-block"><p class="subhead">compartir para una <br><b>solución</b></p></a>
             <p>Difundir la palabra. Comparte esta página en las redes sociales con tus amigos y familiares.</p>
           </div>
         </div>
