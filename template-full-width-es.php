@@ -18,12 +18,12 @@ get_header(); ?>
             <button class="pinkBtn"><a href="#petition-block">Fimar la petición</a></button>
           </div>
           <div class="medium-6 large-6 cell m_video">
-            <a data-open="vanessa_modal" aria-controls="vanessa_modal" aria-haspopup="true" tabindex="7">
+            <a data-open="michelle_modal" aria-controls="michelle_modal" aria-haspopup="true" tabindex="7">
               <i class="fab fa-youtube m_click"></i>
               <img src="https://everybabycountsnv.org/wp-content/uploads/2018/11/michellestory.jpg">
             </a>
-            <a data-open="vanessa_modal" aria-controls="vanessa_modal" aria-haspopup="true" tabindex="8" class="captiontitle">
-              <span>Ve la historia de <b>Vanessa</b> <i class="fab fa-youtube"></i></span>
+            <a data-open="michelle_modal" aria-controls="michelle_modal" aria-haspopup="true" tabindex="8" class="captiontitle">
+              <span>Ve la historia de <b>Michelle</b> <i class="fab fa-youtube"></i></span>
             </a>
           </div>
         </div>

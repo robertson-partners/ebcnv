@@ -18,12 +18,12 @@ get_header(); ?>
             <button class="pinkBtn"><a href="#petition-block">Sign the petition</a></button>
           </div>
           <div class="medium-6 large-6 cell m_video">
-            <a data-open="vanessa_modal" aria-controls="vanessa_modal" aria-haspopup="true" tabindex="7">
+            <a data-open="michelle_modal" aria-controls="michelle_modal" aria-haspopup="true" tabindex="7">
               <i class="fab fa-youtube m_click"></i>
-              <img src="https://everybabycountsnv.org/wp-content/uploads/2018/11/michellestory.jpg" alt="Watch Michelle's Story">
+              <img src="https://everybabycountsnv.org/wp-content/uploads/2018/11/michellestory.jpg" alt="See Michelle's Story">
             </a>
-            <a data-open="vanessa_modal" aria-controls="vanessa_modal" aria-haspopup="true" tabindex="8" class="captiontitle">
-              <span>see <b>Vanessa's</b> story <i class="fab fa-youtube"></i></span>
+            <a data-open="michelle_modal" aria-controls="michelle_modal" aria-haspopup="true" tabindex="8" class="captiontitle">
+              <span>see <b>Michelle's</b> story <i class="fab fa-youtube"></i></span>
             </a>
           </div>
         </div>
@@ -109,7 +109,7 @@ get_header(); ?>
             <h2><b>no child</b> is immune from need</h2>
             <a data-open="michelle_modal" aria-controls="michelle_modal" aria-haspopup="true" tabindex="12">
               <i class="fab fa-youtube v_click"></i>
-              <img src="https://everybabycountsnv.org/wp-content/uploads/2018/11/vanessastory.jpg" alt="Watch Vanessa's Story">
+              <img src="https://everybabycountsnv.org/wp-content/uploads/2018/11/vanessastory.jpg" alt="Watch Michelle's Story">
             </a>
             <a data-open="michelle_modal" aria-controls="michelle_modal" aria-haspopup="true" tabindex="12" class="captiontitle2">
               <span>see <b>Michelle's</b> story <i class="fab fa-youtube"></i></span>
