@@ -148,7 +148,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x">
           <div class="medium-12 large-12 cell">
             <h2><b>testimonios</b></h2>
-            <p>&ldquo;Si nosotros (los nevadenses) no tuviéramos los servicios que Sunrise ha prestado a Roman, no creo que lo hubiera logrado.&rdquo; – Vanessa M., madre</p>
+            <!--<p>&ldquo;Si nosotros (los nevadenses) no tuviéramos los servicios que Sunrise ha prestado a Roman, no creo que lo hubiera logrado.&rdquo; – Vanessa M., madre</p>-->
             <p>&ldquo;No hay ningún otro lugar donde estas familias puedan ir, no deberían tener que ir a ningún otro lugar". Deben poder recibir el tratamiento que necesitan aquí mismo en su hogar (Nevada).&rdquo; – Arthur I., enfermera líder de PICU</p>
             <p>&ldquo;Sin la ayuda del hospital, no tendría a mis hijos. Es extremadamente importante que den prioridad a esto para las personas como yo.&rdquo; – Brooklynn B., madre</p>
             <p>&ldquo;Este es un recurso de la comunidad del que podemos sentirnos orgullosos y que podemos apoyar a nuestras familias en todo el estado (Nevada).&rdquo; – Patricia Ramsay, Directora Médica de NICU</p>

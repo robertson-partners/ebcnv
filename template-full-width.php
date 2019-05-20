@@ -148,7 +148,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x">
           <div class="medium-12 large-12 cell">
             <h2><b>testimonials</b></h2>
-            <p>&ldquo;If we (Nevadans) didn't have the services that Sunrise has provided for Roman, I don't think he would have made it.&rdquo; – Vanessa M., Mother</p>
+            <!--<p>&ldquo;If we (Nevadans) didn't have the services that Sunrise has provided for Roman, I don't think he would have made it.&rdquo; – Vanessa M., Mother</p>-->
             <p>&ldquo;There's nowhere else these families can go, they shouldn't have to go anywhere else. They should be able to get the treatment they need right here in their home (Nevada).&rdquo; – Arthur I., PICU Nurse Leader</p>
             <p>&ldquo;Without the hospital's help, I wouldn't have my kids. It's extremely important that they prioritize this for people like me.&rdquo; – Brooklynn B., Mother</p>
             <p>&ldquo;This is a community resource that we can be proud of, and can support our families throughout the state (Nevada).&rdquo; – Patricia Ramsay, NICU Medical Director</p>
