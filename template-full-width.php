@@ -85,15 +85,13 @@ get_header(); ?>
     </div>
     <!-- Petition Block -->
 
-    <!-- Letter Block -->
+    <!-- Letter Block --
     <div class="letter-block" id="letter-block">
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
           <div class="medium-12 large-12 cell">
           <h2>send a <b>letter</b></h2>
-            <!-- VOTER VOICE TEST -->
             <script type="text/javascript" src="https://www.votervoice.net/Scripts/Cg0AAAAAAAA/Plugin.js?app=campaigns"></script><vv:main></vv:main>
-            <!-- END VOTER VOICE -->
             </div>
           </div>
         </div>
