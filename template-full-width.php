@@ -85,7 +85,7 @@ get_header(); ?>
     </div>
     <!-- Petition Block -->
 
-    <!-- Letter Block --
+    <!-- Letter Block -->
     <div class="letter-block" id="letter-block">
       <div class="grid-container">
         <div class="grid-x grid-padding-x">
